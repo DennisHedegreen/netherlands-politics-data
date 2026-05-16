@@ -4,14 +4,15 @@ Public now:
 
 - public GitHub preview mirror: `netherlands-politics-data`
 - public-preview Streamlit app shell: `https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/`
+- TID public-preview door: `https://hedegreenresearch.com/tid/netherlands-politics-data/`
 - preview-level README, methodology, provenance, and normalized output files
 
 Still not public-launched:
 
-- no TID room
 - no public homepage link
 - no cross-country claim
 - no public live-country switch exposure from `World-politics-data`
+- TID wording must stay preview-only
 
 Internal now:
 
@@ -28,10 +29,9 @@ Internal now:
 
 Not ready for public:
 
-- any TID room
 - any claim that Netherlands belongs in the public live country switch
 - any cross-country comparison involving the Netherlands
-- any final public-launch wording before the preview has passed live readback
+- any final public-launch wording beyond the current public-preview door
 
 First internal boundary:
 
@@ -44,4 +44,4 @@ First internal boundary:
 
 Rule:
 
-The Netherlands is now allowed to exist as a public preview mirror and public Streamlit preview. Do not expose the country from the shared public profile, add a TID door, or make cross-country claims until post-deploy browser readback, method wording, source rebuild scripting, and a separate TID-readiness decision are complete.
+The Netherlands is now allowed to exist as a public preview mirror, public Streamlit preview, and TID public-preview door. Do not expose the country from the shared public profile, public homepage, or cross-country surfaces until method wording, source rebuild scripting, and a separate full-launch decision are complete.

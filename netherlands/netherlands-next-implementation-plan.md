@@ -46,13 +46,14 @@ Current state:
 - Turnout audit confirms the raw fields reconcile, but raw `Opkomst / Kiesgerechtigden` exceeds `100%` in some island municipalities
 - public GitHub preview mirror exists as `DennisHedegreen/netherlands-politics-data`
 - public Streamlit preview exists at `https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/`
-- mirror readback passes locally; live Cloud browser readback is still the next deployment check
+- TID public-preview door exists at `https://hedegreenresearch.com/tid/netherlands-politics-data/`
+- mirror readback passes locally and in live Cloud; remaining work is full-launch boundary cleanup
 
 Next useful passes:
 
-1. run one live browser readback before any TID/public-homepage decision
+1. keep the TID door preview-labelled until a separate full-launch decision
 2. record any Cloud-only issues in the mirror docs
-3. decide whether the preview is stable enough to keep as the public Netherlands link
+3. decide whether and when Netherlands belongs on public homepage/shared profile surfaces
 
 First no-go conditions:
 

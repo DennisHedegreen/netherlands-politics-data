@@ -8,8 +8,9 @@ This repo is a public preview, not a full public launch.
 
 - GitHub repo: [DennisHedegreen/netherlands-politics-data](https://github.com/DennisHedegreen/netherlands-politics-data)
 - Visibility: `public`
+- TID preview door: [hedegreenresearch.com/tid/netherlands-politics-data](https://hedegreenresearch.com/tid/netherlands-politics-data/)
 - Live app: [netherlands-politics-data Streamlit app](https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/)
-- Public status: `preview`, not TID-launched
+- Public status: `preview`; TID door is preview-only, not a full country launch
 
 ## Declared Scope
 
@@ -52,7 +53,7 @@ See [METHODOLOGY.md](METHODOLOGY.md) before using results in public claims.
 
 ## Boundary
 
-- Not a TID launch
+- Not a full public/TID launch
 - Not a cross-country Netherlands claim
 - Not a second source of truth beside `World-politics-data`
 - Not a full Netherlands election archive
@@ -60,8 +61,8 @@ See [METHODOLOGY.md](METHODOLOGY.md) before using results in public claims.
 
 Intentionally missing:
 
-- `TID` public door and public website links
-- Full public-launch wording until Netherlands is explicitly declared TID-ready
+- Full public-launch wording until Netherlands is explicitly declared beyond preview
+- Public homepage, public country-switch, or cross-country exposure
 - `Turnout` as a live factor until the Tweede Kamer audit layer is promoted deliberately
 - Older Tweede Kamer years before the source and municipality semantics have been reviewed
 - Caribbean/NBSB material in the municipality layer
@@ -69,7 +70,7 @@ Intentionally missing:
 ## Preview Sources
 
 - Election source: `Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators`
-- Boundary note: `Public preview only; no TID door or cross-country claim`
+- Boundary note: `Public preview only; TID door is preview-labelled and there is no cross-country claim`
 - Statistics source: `CBS StatLine`
 - Provenance notes: [provenance/](provenance/)
 

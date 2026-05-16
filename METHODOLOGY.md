@@ -29,7 +29,7 @@ A public preview reading surface for Dutch politics data. It pairs Tweede Kamer 
 ## Sources
 
 - Election source: `Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators`
-- Boundary note: `Public preview only; no TID door or cross-country claim`
+- Boundary note: `Public preview only; TID door is preview-labelled and there is no cross-country claim`
 - Statistics source: `CBS StatLine`
 
 ## Known limitations

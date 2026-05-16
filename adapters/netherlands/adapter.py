@@ -976,7 +976,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.markdown(
             f"""
 Tweede Kamer results for 2023 and 2025 across European Netherlands municipalities, cross-referenced with eight CBS municipality-level structural indicators.
-Built as a public preview for journalists and researchers. No login required. The data sources are public; the preview is not a TID launch.
+Built as a public preview for journalists and researchers. No login required. The data sources are public; the TID door is preview-labelled, not a full country launch.
 
 Built by [Hedegreen Research](https://hedegreenresearch.com).
 
@@ -986,7 +986,7 @@ Built by [Hedegreen Research](https://hedegreenresearch.com).
 - Public geography: European Netherlands `{country_config.public_geography_label}`
 - Public geography count: `{country_config.public_geography_count}`
 - Statistics source: `{country_config.statistics_source_name}`
-- Runtime status: public preview; not TID-launched
+- Runtime status: public preview with a preview TID door
 
 The adapter deliberately excludes `G9010 NBSB`, Bonaire, Sint Eustatius, Saba, and any abroad-style aggregate rows from the first municipality layer.
 """
@@ -996,8 +996,8 @@ The adapter deliberately excludes `G9010 NBSB`, Bonaire, Sint Eustatius, Saba, a
 **Publication boundary**
 
 - Public-preview surface only.
-- Public GitHub mirror and public Streamlit preview are allowed; no TID door, public homepage link, or cross-country claim yet.
-- Full public-launch readiness still needs post-deploy browser readback, source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
+- Public GitHub mirror, public Streamlit preview, and preview-labelled TID door are allowed; no public homepage link, public country-switch exposure, or cross-country claim yet.
+- Full public-launch readiness still needs source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
 """
         )
         st.markdown(

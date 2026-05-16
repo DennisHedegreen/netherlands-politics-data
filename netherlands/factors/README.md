@@ -5,7 +5,7 @@ Public-preview factor layer for Netherlands.
 Status:
 
 - public preview only
-- not TID-launched
+- TID public-preview door exists, but not a full public launch
 - public-preview runtime adapter exists
 - public-preview mirror exposure exists
 
@@ -234,4 +234,4 @@ Provenance:
 
 - `../../provenance/netherlands_cars_manifest.json`
 
-Do not promote Netherlands beyond the public-preview gate from these files alone. They are preview factor candidates for the current app surface, not a TID/public-homepage release signal.
+Do not promote Netherlands beyond the public-preview gate from these files alone. They are preview factor candidates for the current app surface, not a public-homepage, shared-profile, cross-country, or full-launch signal.

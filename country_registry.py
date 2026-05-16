@@ -106,7 +106,7 @@ COUNTRY = CountryConfig(
     factor_dir=ROOT / "netherlands/factors",
     party_metadata=PARTY_METADATA,
     source_note='Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators',
-    secondary_source_note='Public preview only; no TID door or cross-country claim',
+    secondary_source_note='Public preview only; TID door is preview-labelled and there is no cross-country claim',
 )
 
 

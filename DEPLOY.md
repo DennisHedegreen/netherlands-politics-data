@@ -36,14 +36,14 @@ Deploy privacy:
 
 - The GitHub repo is public.
 - The Streamlit app may be public for this preview.
-- Keep TID/site links out until a separate public-launch decision exists.
+- TID/site links may point only to the preview door; keep public homepage and shared profile exposure out until a separate full-launch decision exists.
 
 ## Public preview shape
 
 - App title: `Dutch Politics Data`
 - Country exposure: `Netherlands` only
 - No public country selector
-- No TID door or public homepage updates in this phase
+- TID door: public preview only
 - Public preview only until an explicit TID-readiness decision exists
 
 ## Before pushing live
@@ -51,4 +51,4 @@ Deploy privacy:
 - confirm the netherlands data pack exists and loads cleanly
 - confirm the README and methodology still say `public preview`
 - confirm boundary notes still match the Netherlands preview boundary
-- confirm no TID-door language slipped into the repo
+- confirm the TID-door language stays preview-only

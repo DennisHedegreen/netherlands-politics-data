@@ -14,7 +14,7 @@ Status:
 - `2023` and `2025`
 - public-preview runtime adapter exists
 - public-preview mirror exposure exists
-- not TID-launched
+- TID public-preview door exists, but not a full public launch
 
 Current output:
 
@@ -64,4 +64,4 @@ Provenance:
 
 - `../../provenance/netherlands_tk_normalization_manifest.json`
 
-Do not promote Netherlands beyond the public-preview gate from this file alone. The national output is source-backed, but TID/public-homepage exposure still needs live Streamlit readback, turnout holdback wording, source wording review, and a separate release decision.
+Do not promote Netherlands beyond the public-preview gate from this file alone. The national output is source-backed, but public-homepage exposure, shared-profile exposure, cross-country claims, and full-launch wording still need a separate release decision.
