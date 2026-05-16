@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-05-15T18:04:49Z",
+  "country_id": "netherlands",
+  "status": "superseded_first_pass_manifest",
+  "public_ready": false,
+  "scope": {
+    "election_type": "Tweede Kamer",
+    "normalized_election_years": [
+      2025
+    ],
+    "geography_version": "CBS gemeentelijke indeling op 1 januari 2025",
+    "ordinary_european_municipalities": 342,
+    "excluded_regions": [
+      "G9010 NBSB",
+      "O9001 Bonaire",
+      "O9002 Sint Eustatius",
+      "O9003 Saba"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Kiesraad/data.overheid.nl Verkiezingsuitslag Tweede Kamer 2025 (CSV Formaat)",
+      "path": "data/politics/netherlands/elections/raw/2025-tweede-kamer/extracted/TK2025_uitslag.csv",
+      "sha256": "9b7fb585ff58e880aeda878ee100b41a5da5d9c59f773059df51e82d5e127c77",
+      "bytes": 4568712
+    },
+    {
+      "label": "CBS Gemeentelijke indeling op 1 januari 2025 - Gemeenten alfabetisch 2025",
+      "path": "data/politics/netherlands/geography/raw/cbs-gemeentelijke-indeling-2025/gemeenten-alfabetisch-2025.xlsx",
+      "sha256": "4841533b6c73b08b05a4dd310223f50e38a0b574a480caf32a426a4d64e6d980",
+      "bytes": 26449
+    }
+  ],
+  "files_written": {
+    "municipality_party_vote_share_rows": 8124,
+    "municipality_crosswalk_rows": 684,
+    "outputs": [
+      "World-politics-data/netherlands/tweede-kamer/tweede_kamer_party_share_by_municipality.csv",
+      "World-politics-data/netherlands/geography/election_cbs_municipality_crosswalk.csv"
+    ]
+  },
+  "checks": {
+    "geography": {
+      "2023": {
+        "cbs_municipality_count": 342,
+        "election_municipality_count": 342,
+        "only_in_cbs": [],
+        "only_in_election": [],
+        "raw_name_difference_count": 3,
+        "raw_name_differences": [
+          {
+            "code": "0164",
+            "cbs_name": "Hengelo",
+            "election_name": "Hengelo (O)"
+          },
+          {
+            "code": "0373",
+            "cbs_name": "Bergen (NH.)",
+            "election_name": "Bergen (NH)"
+          },
+          {
+            "code": "0893",
+            "cbs_name": "Bergen (L.)",
+            "election_name": "Bergen (L)"
+          }
+        ],
+        "normalized_name_difference_count": 0,
+        "normalized_name_differences": []
+      },
+      "2025": {
+        "cbs_municipality_count": 342,
+        "election_municipality_count": 342,
+        "only_in_cbs": [],
+        "only_in_election": [],
+        "raw_name_difference_count": 8,
+        "raw_name_differences": [
+          {
+            "code": "0164",
+            "cbs_name": "Hengelo (O.)",
+            "election_name": "Hengelo (O)"
+          },
+          {
+            "code": "0373",
+            "cbs_name": "Bergen (NH.)",
+            "election_name": "Bergen (NH)"
+          },
+          {
+            "code": "0417",
+            "cbs_name": "Laren (NH.)",
+            "election_name": "Laren"
+          },
+          {
+            "code": "0603",
+            "cbs_name": "Rijswijk (ZH.)",
+            "election_name": "Rijswijk"
+          },
+          {
+            "code": "0687",
+            "cbs_name": "Middelburg (Z.)",
+            "election_name": "Middelburg"
+          },
+          {
+            "code": "0888",
+            "cbs_name": "Beek (L.)",
+            "election_name": "Beek"
+          },
+          {
+            "code": "0893",
+            "cbs_name": "Bergen (L.)",
+            "election_name": "Bergen (L)"
+          },
+          {
+            "code": "0971",
+            "cbs_name": "Stein (L.)",
+            "election_name": "Stein"
+          }
+        ],
+        "normalized_name_difference_count": 0,
+        "normalized_name_differences": []
+      }
+    },
+    "tk2025_vote_reconciliation": {
+      "municipalities": 342,
+      "rows": 8124,
+      "party_count_distribution": {
+        "21": 12,
+        "22": 23,
+        "23": 87,
+        "24": 136,
+        "25": 83,
+        "26": 1
+      },
+      "vote_sum_mismatches": [],
+      "share_sum_max_abs_error_after_rounding": 3e-06
+    },
+    "tk2025_party_availability": {
+      "ordinary_municipality_to_parent_kieskring_mismatches": [],
+      "mismatch_count": 0
+    }
+  },
+  "next_steps": [
+    "Review normalized TK2025 output before writing a runtime adapter.",
+    "Reuse the same locked parser shape for TK2023 after TK2025 output is accepted.",
+    "Keep turnout out of public output until denominator wording is explicit.",
+    "Choose the first CBS StatLine factor table only after the election geography remains stable in review."
+  ],
+  "superseded_by": "provenance/netherlands_tk_normalization_manifest.json",
+  "note": "The shared output now contains TK2023 and TK2025 rows and points to netherlands_tk_normalization_manifest.json."
+}

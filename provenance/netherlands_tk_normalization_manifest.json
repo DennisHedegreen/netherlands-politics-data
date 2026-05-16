@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-05-16T00:13:05Z",
+  "country_id": "netherlands",
+  "status": "internal_normalized_candidate",
+  "public_ready": false,
+  "scope": {
+    "election_type": "Tweede Kamer",
+    "normalized_election_years": [
+      2023,
+      2025
+    ],
+    "ordinary_european_municipalities_per_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "excluded_regions": [
+      "G9010",
+      "O9001",
+      "O9002",
+      "O9003"
+    ],
+    "party_id_scope": "year-local; join parties across years only with election_year plus lijst_nummer/lijst_naam or a later explicit party bridge"
+  },
+  "sources": [
+    {
+      "label": "Kiesraad/data.overheid.nl Verkiezingsuitslag Tweede Kamer 2023 (CSV formaat)",
+      "path": "data/politics/netherlands/elections/raw/2023-tweede-kamer/extracted/TK2023_uitslag.csv",
+      "sha256": "6ac43938316791dc81aaeff3fed78643f2e8c2d4c630fd43db8f57257f5dbfdf",
+      "bytes": 4317684
+    },
+    {
+      "label": "Kiesraad/data.overheid.nl Verkiezingsuitslag Tweede Kamer 2025 (CSV Formaat)",
+      "path": "data/politics/netherlands/elections/raw/2025-tweede-kamer/extracted/TK2025_uitslag.csv",
+      "sha256": "9b7fb585ff58e880aeda878ee100b41a5da5d9c59f773059df51e82d5e127c77",
+      "bytes": 4568712
+    },
+    {
+      "label": "CBS Gemeentelijke indeling op 1 januari 2023 - parsed CSV",
+      "path": "data/politics/netherlands/geography/raw/cbs-gemeentelijke-indeling-2023/gemeenten-alfabetisch-2023-data.csv",
+      "sha256": "f3ed08affc477e9ef26e2c73e7cc91535b6ed207d92f0f5d6b81a69887061f43",
+      "bytes": 14800
+    },
+    {
+      "label": "CBS Gemeentelijke indeling op 1 januari 2025 - parsed CSV",
+      "path": "data/politics/netherlands/geography/raw/cbs-gemeentelijke-indeling-2025/gemeenten-alfabetisch-2025-data.csv",
+      "sha256": "f28cf4d7ac05e0d6dd7c914750dde0f1df1cff99d32c05789d528c10b6968769",
+      "bytes": 14832
+    }
+  ],
+  "files_written": {
+    "municipality_party_vote_share_rows": 16684,
+    "rows_by_year": {
+      "2023": 8560,
+      "2025": 8124
+    },
+    "national_vote_share_rows": 53,
+    "national_rows_by_year": {
+      "2023": 26,
+      "2025": 27
+    },
+    "turnout_audit_rows": 684,
+    "turnout_audit_rows_by_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "municipality_crosswalk_rows": 684,
+    "outputs": [
+      "World-politics-data/netherlands/tweede-kamer/tweede_kamer_party_share_by_municipality.csv",
+      "World-politics-data/netherlands/tweede-kamer/tweede_kamer_national_vote_share.csv",
+      "World-politics-data/netherlands/tweede-kamer/tweede_kamer_turnout_audit_by_municipality.csv",
+      "World-politics-data/netherlands/geography/election_cbs_municipality_crosswalk.csv"
+    ]
+  },
+  "checks": {
+    "geography": {
+      "2023": {
+        "cbs_municipality_count": 342,
+        "election_municipality_count": 342,
+        "only_in_cbs": [],
+        "only_in_election": [],
+        "raw_name_difference_count": 3,
+        "raw_name_differences": [
+          {
+            "code": "0164",
+            "cbs_name": "Hengelo",
+            "election_name": "Hengelo (O)"
+          },
+          {
+            "code": "0373",
+            "cbs_name": "Bergen (NH.)",
+            "election_name": "Bergen (NH)"
+          },
+          {
+            "code": "0893",
+            "cbs_name": "Bergen (L.)",
+            "election_name": "Bergen (L)"
+          }
+        ],
+        "normalized_name_difference_count": 0,
+        "normalized_name_differences": []
+      },
+      "2025": {
+        "cbs_municipality_count": 342,
+        "election_municipality_count": 342,
+        "only_in_cbs": [],
+        "only_in_election": [],
+        "raw_name_difference_count": 8,
+        "raw_name_differences": [
+          {
+            "code": "0164",
+            "cbs_name": "Hengelo (O.)",
+            "election_name": "Hengelo (O)"
+          },
+          {
+            "code": "0373",
+            "cbs_name": "Bergen (NH.)",
+            "election_name": "Bergen (NH)"
+          },
+          {
+            "code": "0417",
+            "cbs_name": "Laren (NH.)",
+            "election_name": "Laren"
+          },
+          {
+            "code": "0603",
+            "cbs_name": "Rijswijk (ZH.)",
+            "election_name": "Rijswijk"
+          },
+          {
+            "code": "0687",
+            "cbs_name": "Middelburg (Z.)",
+            "election_name": "Middelburg"
+          },
+          {
+            "code": "0888",
+            "cbs_name": "Beek (L.)",
+            "election_name": "Beek"
+          },
+          {
+            "code": "0893",
+            "cbs_name": "Bergen (L.)",
+            "election_name": "Bergen (L)"
+          },
+          {
+            "code": "0971",
+            "cbs_name": "Stein (L.)",
+            "election_name": "Stein"
+          }
+        ],
+        "normalized_name_difference_count": 0,
+        "normalized_name_differences": []
+      }
+    },
+    "vote_reconciliation_by_year": {
+      "2023": {
+        "municipalities": 342,
+        "rows": 8560,
+        "party_count_distribution": {
+          "23": 25,
+          "24": 48,
+          "25": 161,
+          "26": 108
+        },
+        "vote_sum_mismatches": [],
+        "share_sum_max_abs_error_after_rounding": 5e-06
+      },
+      "2025": {
+        "municipalities": 342,
+        "rows": 8124,
+        "party_count_distribution": {
+          "21": 12,
+          "22": 23,
+          "23": 87,
+          "24": 136,
+          "25": 83,
+          "26": 1
+        },
+        "vote_sum_mismatches": [],
+        "share_sum_max_abs_error_after_rounding": 3e-06
+      }
+    },
+    "party_availability_by_year": {
+      "2023": {
+        "ordinary_municipality_to_parent_kieskring_mismatches": [],
+        "mismatch_count": 0
+      },
+      "2025": {
+        "ordinary_municipality_to_parent_kieskring_mismatches": [],
+        "mismatch_count": 0
+      }
+    },
+    "national_land_total_by_year": {
+      "2023": {
+        "land_regio_code": "L528",
+        "land_regio_name": "Nederland",
+        "national_list_rows": 26,
+        "seat_rows": 15,
+        "national_vote_sum": 10432726,
+        "valid_votes": 10432726,
+        "vote_sum_matches_valid_votes": true,
+        "regional_vote_sum_mismatches": [],
+        "scope_valid_vote_reconciliation": {
+          "european_municipality_valid_votes": 10359712,
+          "nbsb_valid_votes": 69047,
+          "caribbean_public_body_valid_votes": 3967,
+          "land_valid_votes": 10432726,
+          "land_minus_european_municipalities": 73014,
+          "land_minus_european_plus_special_regions": 0
+        }
+      },
+      "2025": {
+        "land_regio_code": "L528",
+        "land_regio_name": "Nederland",
+        "national_list_rows": 27,
+        "seat_rows": 15,
+        "national_vote_sum": 10571990,
+        "valid_votes": 10571990,
+        "vote_sum_matches_valid_votes": true,
+        "regional_vote_sum_mismatches": [],
+        "scope_valid_vote_reconciliation": {
+          "european_municipality_valid_votes": 10481804,
+          "nbsb_valid_votes": 86428,
+          "caribbean_public_body_valid_votes": 3758,
+          "land_valid_votes": 10571990,
+          "land_minus_european_municipalities": 90186,
+          "land_minus_european_plus_special_regions": 0
+        }
+      }
+    },
+    "turnout_audit_by_year": {
+      "2023": {
+        "ordinary_municipality_rows": 342,
+        "audit_rows": 342,
+        "missing_turnout_fields": [],
+        "turnout_reconciliation_mismatches": [],
+        "opkomst_exceeds_kiesgerechtigden": [
+          {
+            "regio_code": "G0060",
+            "municipality": "Ameland",
+            "turnout": 3290,
+            "eligible_voters": 2977,
+            "raw_turnout_pct": 110.51394
+          },
+          {
+            "regio_code": "G0088",
+            "municipality": "Schiermonnikoog",
+            "turnout": 938,
+            "eligible_voters": 802,
+            "raw_turnout_pct": 116.957606
+          },
+          {
+            "regio_code": "G0096",
+            "municipality": "Vlieland",
+            "turnout": 970,
+            "eligible_voters": 957,
+            "raw_turnout_pct": 101.358412
+          }
+        ],
+        "promote_to_live_factor": false,
+        "promotion_blocker": "Opkomst can exceed Kiesgerechtigden in island municipalities; keep turnout out until denominator wording is explicit."
+      },
+      "2025": {
+        "ordinary_municipality_rows": 342,
+        "audit_rows": 342,
+        "missing_turnout_fields": [],
+        "turnout_reconciliation_mismatches": [],
+        "opkomst_exceeds_kiesgerechtigden": [
+          {
+            "regio_code": "G0060",
+            "municipality": "Ameland",
+            "turnout": 3145,
+            "eligible_voters": 2977,
+            "raw_turnout_pct": 105.643265
+          },
+          {
+            "regio_code": "G0088",
+            "municipality": "Schiermonnikoog",
+            "turnout": 1050,
+            "eligible_voters": 792,
+            "raw_turnout_pct": 132.575758
+          },
+          {
+            "regio_code": "G0093",
+            "municipality": "Terschelling",
+            "turnout": 4211,
+            "eligible_voters": 4000,
+            "raw_turnout_pct": 105.275
+          },
+          {
+            "regio_code": "G0096",
+            "municipality": "Vlieland",
+            "turnout": 1053,
+            "eligible_voters": 940,
+            "raw_turnout_pct": 112.021277
+          }
+        ],
+        "promote_to_live_factor": false,
+        "promotion_blocker": "Opkomst can exceed Kiesgerechtigden in island municipalities; keep turnout out until denominator wording is explicit."
+      }
+    }
+  },
+  "next_steps": [
+    "Keep turnout out of public output until denominator wording is explicit.",
+    "Keep Netherlands behind internal profiles until source wording and municipality-vs-national scope wording are ready for publication."
+  ]
+}

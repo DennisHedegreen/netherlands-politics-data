@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-05-16T00:13:05Z",
+  "country_id": "netherlands",
+  "factor_id": "one_person_households",
+  "status": "internal_factor_candidate",
+  "public_ready": false,
+  "source": {
+    "publisher": "CBS StatLine",
+    "table_identifier": "70072NED",
+    "title": "Regionale kerncijfers Nederland",
+    "odata_base_url": "https://opendata.cbs.nl/ODataApi/OData/70072NED",
+    "filtered_dataset_url": "https://opendata.cbs.nl/ODataApi/OData/70072NED/TypedDataSet?$filter=(Perioden%20eq%20'2023JJ00'%20or%20Perioden%20eq%20'2025JJ00')",
+    "field_used": "Eenpersoonshuishoudens_86",
+    "field_title": "Eenpersoonshuishoudens",
+    "field_description": "Share of private households that are one-person households.",
+    "unit": "%",
+    "dimension_filter": {
+      "Perioden": {
+        "2023": "2023JJ00",
+        "2025": "2025JJ00"
+      }
+    },
+    "source_status_note": "The harvested 70072NED current-period rowset has non-null 2023 and 2025 municipality values for this field."
+  },
+  "raw_files": [
+    {
+      "path": "data/politics/netherlands/factors/population_density/raw/cbs-70072ned/dataproperties.json",
+      "sha256": "c368deadfd146ea75bc5bcde615ea079becf2defc4aa5acab739e90ed07a5913",
+      "bytes": 251400
+    },
+    {
+      "path": "data/politics/netherlands/factors/population_density/raw/cbs-70072ned/perioden.json",
+      "sha256": "31a5f82b626a31005eb88203d2e65298b419ec00628c463daaaec8d52f8529b5",
+      "bytes": 3945
+    },
+    {
+      "path": "data/politics/netherlands/factors/population_density/raw/cbs-70072ned/tableinfos.json",
+      "sha256": "31f43de1f99944d332034113f016f2a75595b2304b444abb03be6a01f4c8a4fa",
+      "bytes": 11085
+    },
+    {
+      "path": "data/politics/netherlands/factors/population_density/raw/cbs-70072ned/typeddata-population-density-2023-2025.json",
+      "sha256": "60bbaf6b1b0a7043063f7dbeef15dfd92dd13ede3f4966b5eed3a0636390f6e7",
+      "bytes": 15978283
+    }
+  ],
+  "files_written": {
+    "factor_rows": 684,
+    "rows_by_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "outputs": [
+      "World-politics-data/netherlands/factors/one_person_household_share_pct.csv"
+    ]
+  },
+  "checks": {
+    "coverage_by_year": {
+      "2023": {
+        "classification_municipalities": 342,
+        "one_person_households_rows": 342,
+        "missing_gm_codes": [],
+        "null_one_person_households_gm_codes": [],
+        "min_one_person_households": 20.7,
+        "max_one_person_households": 61.8,
+        "total_one_person_households_sum_municipalities": null
+      },
+      "2025": {
+        "classification_municipalities": 342,
+        "one_person_households_rows": 342,
+        "missing_gm_codes": [],
+        "null_one_person_households_gm_codes": [],
+        "min_one_person_households": 22.2,
+        "max_one_person_households": 63.6,
+        "total_one_person_households_sum_municipalities": null
+      }
+    },
+    "expected_municipalities_per_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "coverage_ok": true
+  },
+  "normalization_rule": "Use CBS Eenpersoonshuishoudens_86 directly for matching GM municipality codes in the annual CBS municipality classification."
+}

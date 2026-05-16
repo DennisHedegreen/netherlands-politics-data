@@ -1,0 +1,685 @@
+election_year,election_regio_code,municipality_code,cbs_gm_code,election_municipality,cbs_municipality,province_code,province_code_pv,province,raw_name_match,normalized_name_match
+2023,G0014,0014,GM0014,Groningen,Groningen,20,PV20,Groningen,true,true
+2023,G0034,0034,GM0034,Almere,Almere,24,PV24,Flevoland,true,true
+2023,G0037,0037,GM0037,Stadskanaal,Stadskanaal,20,PV20,Groningen,true,true
+2023,G0047,0047,GM0047,Veendam,Veendam,20,PV20,Groningen,true,true
+2023,G0050,0050,GM0050,Zeewolde,Zeewolde,24,PV24,Flevoland,true,true
+2023,G0059,0059,GM0059,Achtkarspelen,Achtkarspelen,21,PV21,Fryslân,true,true
+2023,G0060,0060,GM0060,Ameland,Ameland,21,PV21,Fryslân,true,true
+2023,G0072,0072,GM0072,Harlingen,Harlingen,21,PV21,Fryslân,true,true
+2023,G0074,0074,GM0074,Heerenveen,Heerenveen,21,PV21,Fryslân,true,true
+2023,G0080,0080,GM0080,Leeuwarden,Leeuwarden,21,PV21,Fryslân,true,true
+2023,G0085,0085,GM0085,Ooststellingwerf,Ooststellingwerf,21,PV21,Fryslân,true,true
+2023,G0086,0086,GM0086,Opsterland,Opsterland,21,PV21,Fryslân,true,true
+2023,G0088,0088,GM0088,Schiermonnikoog,Schiermonnikoog,21,PV21,Fryslân,true,true
+2023,G0090,0090,GM0090,Smallingerland,Smallingerland,21,PV21,Fryslân,true,true
+2023,G0093,0093,GM0093,Terschelling,Terschelling,21,PV21,Fryslân,true,true
+2023,G0096,0096,GM0096,Vlieland,Vlieland,21,PV21,Fryslân,true,true
+2023,G0098,0098,GM0098,Weststellingwerf,Weststellingwerf,21,PV21,Fryslân,true,true
+2023,G0106,0106,GM0106,Assen,Assen,22,PV22,Drenthe,true,true
+2023,G0109,0109,GM0109,Coevorden,Coevorden,22,PV22,Drenthe,true,true
+2023,G0114,0114,GM0114,Emmen,Emmen,22,PV22,Drenthe,true,true
+2023,G0118,0118,GM0118,Hoogeveen,Hoogeveen,22,PV22,Drenthe,true,true
+2023,G0119,0119,GM0119,Meppel,Meppel,22,PV22,Drenthe,true,true
+2023,G0141,0141,GM0141,Almelo,Almelo,23,PV23,Overijssel,true,true
+2023,G0147,0147,GM0147,Borne,Borne,23,PV23,Overijssel,true,true
+2023,G0148,0148,GM0148,Dalfsen,Dalfsen,23,PV23,Overijssel,true,true
+2023,G0150,0150,GM0150,Deventer,Deventer,23,PV23,Overijssel,true,true
+2023,G0153,0153,GM0153,Enschede,Enschede,23,PV23,Overijssel,true,true
+2023,G0158,0158,GM0158,Haaksbergen,Haaksbergen,23,PV23,Overijssel,true,true
+2023,G0160,0160,GM0160,Hardenberg,Hardenberg,23,PV23,Overijssel,true,true
+2023,G0163,0163,GM0163,Hellendoorn,Hellendoorn,23,PV23,Overijssel,true,true
+2023,G0164,0164,GM0164,Hengelo (O),Hengelo,23,PV23,Overijssel,false,true
+2023,G0166,0166,GM0166,Kampen,Kampen,23,PV23,Overijssel,true,true
+2023,G0168,0168,GM0168,Losser,Losser,23,PV23,Overijssel,true,true
+2023,G0171,0171,GM0171,Noordoostpolder,Noordoostpolder,24,PV24,Flevoland,true,true
+2023,G0173,0173,GM0173,Oldenzaal,Oldenzaal,23,PV23,Overijssel,true,true
+2023,G0175,0175,GM0175,Ommen,Ommen,23,PV23,Overijssel,true,true
+2023,G0177,0177,GM0177,Raalte,Raalte,23,PV23,Overijssel,true,true
+2023,G0180,0180,GM0180,Staphorst,Staphorst,23,PV23,Overijssel,true,true
+2023,G0183,0183,GM0183,Tubbergen,Tubbergen,23,PV23,Overijssel,true,true
+2023,G0184,0184,GM0184,Urk,Urk,24,PV24,Flevoland,true,true
+2023,G0189,0189,GM0189,Wierden,Wierden,23,PV23,Overijssel,true,true
+2023,G0193,0193,GM0193,Zwolle,Zwolle,23,PV23,Overijssel,true,true
+2023,G0197,0197,GM0197,Aalten,Aalten,25,PV25,Gelderland,true,true
+2023,G0200,0200,GM0200,Apeldoorn,Apeldoorn,25,PV25,Gelderland,true,true
+2023,G0202,0202,GM0202,Arnhem,Arnhem,25,PV25,Gelderland,true,true
+2023,G0203,0203,GM0203,Barneveld,Barneveld,25,PV25,Gelderland,true,true
+2023,G0209,0209,GM0209,Beuningen,Beuningen,25,PV25,Gelderland,true,true
+2023,G0213,0213,GM0213,Brummen,Brummen,25,PV25,Gelderland,true,true
+2023,G0214,0214,GM0214,Buren,Buren,25,PV25,Gelderland,true,true
+2023,G0216,0216,GM0216,Culemborg,Culemborg,25,PV25,Gelderland,true,true
+2023,G0221,0221,GM0221,Doesburg,Doesburg,25,PV25,Gelderland,true,true
+2023,G0222,0222,GM0222,Doetinchem,Doetinchem,25,PV25,Gelderland,true,true
+2023,G0225,0225,GM0225,Druten,Druten,25,PV25,Gelderland,true,true
+2023,G0226,0226,GM0226,Duiven,Duiven,25,PV25,Gelderland,true,true
+2023,G0228,0228,GM0228,Ede,Ede,25,PV25,Gelderland,true,true
+2023,G0230,0230,GM0230,Elburg,Elburg,25,PV25,Gelderland,true,true
+2023,G0232,0232,GM0232,Epe,Epe,25,PV25,Gelderland,true,true
+2023,G0233,0233,GM0233,Ermelo,Ermelo,25,PV25,Gelderland,true,true
+2023,G0243,0243,GM0243,Harderwijk,Harderwijk,25,PV25,Gelderland,true,true
+2023,G0244,0244,GM0244,Hattem,Hattem,25,PV25,Gelderland,true,true
+2023,G0246,0246,GM0246,Heerde,Heerde,25,PV25,Gelderland,true,true
+2023,G0252,0252,GM0252,Heumen,Heumen,25,PV25,Gelderland,true,true
+2023,G0262,0262,GM0262,Lochem,Lochem,25,PV25,Gelderland,true,true
+2023,G0263,0263,GM0263,Maasdriel,Maasdriel,25,PV25,Gelderland,true,true
+2023,G0267,0267,GM0267,Nijkerk,Nijkerk,25,PV25,Gelderland,true,true
+2023,G0268,0268,GM0268,Nijmegen,Nijmegen,25,PV25,Gelderland,true,true
+2023,G0269,0269,GM0269,Oldebroek,Oldebroek,25,PV25,Gelderland,true,true
+2023,G0273,0273,GM0273,Putten,Putten,25,PV25,Gelderland,true,true
+2023,G0274,0274,GM0274,Renkum,Renkum,25,PV25,Gelderland,true,true
+2023,G0275,0275,GM0275,Rheden,Rheden,25,PV25,Gelderland,true,true
+2023,G0277,0277,GM0277,Rozendaal,Rozendaal,25,PV25,Gelderland,true,true
+2023,G0279,0279,GM0279,Scherpenzeel,Scherpenzeel,25,PV25,Gelderland,true,true
+2023,G0281,0281,GM0281,Tiel,Tiel,25,PV25,Gelderland,true,true
+2023,G0285,0285,GM0285,Voorst,Voorst,25,PV25,Gelderland,true,true
+2023,G0289,0289,GM0289,Wageningen,Wageningen,25,PV25,Gelderland,true,true
+2023,G0293,0293,GM0293,Westervoort,Westervoort,25,PV25,Gelderland,true,true
+2023,G0294,0294,GM0294,Winterswijk,Winterswijk,25,PV25,Gelderland,true,true
+2023,G0296,0296,GM0296,Wijchen,Wijchen,25,PV25,Gelderland,true,true
+2023,G0297,0297,GM0297,Zaltbommel,Zaltbommel,25,PV25,Gelderland,true,true
+2023,G0299,0299,GM0299,Zevenaar,Zevenaar,25,PV25,Gelderland,true,true
+2023,G0301,0301,GM0301,Zutphen,Zutphen,25,PV25,Gelderland,true,true
+2023,G0302,0302,GM0302,Nunspeet,Nunspeet,25,PV25,Gelderland,true,true
+2023,G0303,0303,GM0303,Dronten,Dronten,24,PV24,Flevoland,true,true
+2023,G0307,0307,GM0307,Amersfoort,Amersfoort,26,PV26,Utrecht,true,true
+2023,G0308,0308,GM0308,Baarn,Baarn,26,PV26,Utrecht,true,true
+2023,G0310,0310,GM0310,De Bilt,De Bilt,26,PV26,Utrecht,true,true
+2023,G0312,0312,GM0312,Bunnik,Bunnik,26,PV26,Utrecht,true,true
+2023,G0313,0313,GM0313,Bunschoten,Bunschoten,26,PV26,Utrecht,true,true
+2023,G0317,0317,GM0317,Eemnes,Eemnes,26,PV26,Utrecht,true,true
+2023,G0321,0321,GM0321,Houten,Houten,26,PV26,Utrecht,true,true
+2023,G0327,0327,GM0327,Leusden,Leusden,26,PV26,Utrecht,true,true
+2023,G0331,0331,GM0331,Lopik,Lopik,26,PV26,Utrecht,true,true
+2023,G0335,0335,GM0335,Montfoort,Montfoort,26,PV26,Utrecht,true,true
+2023,G0339,0339,GM0339,Renswoude,Renswoude,26,PV26,Utrecht,true,true
+2023,G0340,0340,GM0340,Rhenen,Rhenen,26,PV26,Utrecht,true,true
+2023,G0342,0342,GM0342,Soest,Soest,26,PV26,Utrecht,true,true
+2023,G0344,0344,GM0344,Utrecht,Utrecht,26,PV26,Utrecht,true,true
+2023,G0345,0345,GM0345,Veenendaal,Veenendaal,26,PV26,Utrecht,true,true
+2023,G0351,0351,GM0351,Woudenberg,Woudenberg,26,PV26,Utrecht,true,true
+2023,G0352,0352,GM0352,Wijk bij Duurstede,Wijk bij Duurstede,26,PV26,Utrecht,true,true
+2023,G0353,0353,GM0353,IJsselstein,IJsselstein,26,PV26,Utrecht,true,true
+2023,G0355,0355,GM0355,Zeist,Zeist,26,PV26,Utrecht,true,true
+2023,G0356,0356,GM0356,Nieuwegein,Nieuwegein,26,PV26,Utrecht,true,true
+2023,G0358,0358,GM0358,Aalsmeer,Aalsmeer,27,PV27,Noord-Holland,true,true
+2023,G0361,0361,GM0361,Alkmaar,Alkmaar,27,PV27,Noord-Holland,true,true
+2023,G0362,0362,GM0362,Amstelveen,Amstelveen,27,PV27,Noord-Holland,true,true
+2023,G0363,0363,GM0363,Amsterdam,Amsterdam,27,PV27,Noord-Holland,true,true
+2023,G0373,0373,GM0373,Bergen (NH),Bergen (NH.),27,PV27,Noord-Holland,false,true
+2023,G0375,0375,GM0375,Beverwijk,Beverwijk,27,PV27,Noord-Holland,true,true
+2023,G0376,0376,GM0376,Blaricum,Blaricum,27,PV27,Noord-Holland,true,true
+2023,G0377,0377,GM0377,Bloemendaal,Bloemendaal,27,PV27,Noord-Holland,true,true
+2023,G0383,0383,GM0383,Castricum,Castricum,27,PV27,Noord-Holland,true,true
+2023,G0384,0384,GM0384,Diemen,Diemen,27,PV27,Noord-Holland,true,true
+2023,G0385,0385,GM0385,Edam-Volendam,Edam-Volendam,27,PV27,Noord-Holland,true,true
+2023,G0388,0388,GM0388,Enkhuizen,Enkhuizen,27,PV27,Noord-Holland,true,true
+2023,G0392,0392,GM0392,Haarlem,Haarlem,27,PV27,Noord-Holland,true,true
+2023,G0394,0394,GM0394,Haarlemmermeer,Haarlemmermeer,27,PV27,Noord-Holland,true,true
+2023,G0396,0396,GM0396,Heemskerk,Heemskerk,27,PV27,Noord-Holland,true,true
+2023,G0397,0397,GM0397,Heemstede,Heemstede,27,PV27,Noord-Holland,true,true
+2023,G0399,0399,GM0399,Heiloo,Heiloo,27,PV27,Noord-Holland,true,true
+2023,G0400,0400,GM0400,Den Helder,Den Helder,27,PV27,Noord-Holland,true,true
+2023,G0402,0402,GM0402,Hilversum,Hilversum,27,PV27,Noord-Holland,true,true
+2023,G0405,0405,GM0405,Hoorn,Hoorn,27,PV27,Noord-Holland,true,true
+2023,G0406,0406,GM0406,Huizen,Huizen,27,PV27,Noord-Holland,true,true
+2023,G0415,0415,GM0415,Landsmeer,Landsmeer,27,PV27,Noord-Holland,true,true
+2023,G0417,0417,GM0417,Laren,Laren,27,PV27,Noord-Holland,true,true
+2023,G0420,0420,GM0420,Medemblik,Medemblik,27,PV27,Noord-Holland,true,true
+2023,G0431,0431,GM0431,Oostzaan,Oostzaan,27,PV27,Noord-Holland,true,true
+2023,G0432,0432,GM0432,Opmeer,Opmeer,27,PV27,Noord-Holland,true,true
+2023,G0437,0437,GM0437,Ouder-Amstel,Ouder-Amstel,27,PV27,Noord-Holland,true,true
+2023,G0439,0439,GM0439,Purmerend,Purmerend,27,PV27,Noord-Holland,true,true
+2023,G0441,0441,GM0441,Schagen,Schagen,27,PV27,Noord-Holland,true,true
+2023,G0448,0448,GM0448,Texel,Texel,27,PV27,Noord-Holland,true,true
+2023,G0450,0450,GM0450,Uitgeest,Uitgeest,27,PV27,Noord-Holland,true,true
+2023,G0451,0451,GM0451,Uithoorn,Uithoorn,27,PV27,Noord-Holland,true,true
+2023,G0453,0453,GM0453,Velsen,Velsen,27,PV27,Noord-Holland,true,true
+2023,G0473,0473,GM0473,Zandvoort,Zandvoort,27,PV27,Noord-Holland,true,true
+2023,G0479,0479,GM0479,Zaanstad,Zaanstad,27,PV27,Noord-Holland,true,true
+2023,G0482,0482,GM0482,Alblasserdam,Alblasserdam,28,PV28,Zuid-Holland,true,true
+2023,G0484,0484,GM0484,Alphen aan den Rijn,Alphen aan den Rijn,28,PV28,Zuid-Holland,true,true
+2023,G0489,0489,GM0489,Barendrecht,Barendrecht,28,PV28,Zuid-Holland,true,true
+2023,G0498,0498,GM0498,Drechterland,Drechterland,27,PV27,Noord-Holland,true,true
+2023,G0502,0502,GM0502,Capelle aan den IJssel,Capelle aan den IJssel,28,PV28,Zuid-Holland,true,true
+2023,G0503,0503,GM0503,Delft,Delft,28,PV28,Zuid-Holland,true,true
+2023,G0505,0505,GM0505,Dordrecht,Dordrecht,28,PV28,Zuid-Holland,true,true
+2023,G0512,0512,GM0512,Gorinchem,Gorinchem,28,PV28,Zuid-Holland,true,true
+2023,G0513,0513,GM0513,Gouda,Gouda,28,PV28,Zuid-Holland,true,true
+2023,G0518,0518,GM0518,'s-Gravenhage,'s-Gravenhage,28,PV28,Zuid-Holland,true,true
+2023,G0523,0523,GM0523,Hardinxveld-Giessendam,Hardinxveld-Giessendam,28,PV28,Zuid-Holland,true,true
+2023,G0531,0531,GM0531,Hendrik-Ido-Ambacht,Hendrik-Ido-Ambacht,28,PV28,Zuid-Holland,true,true
+2023,G0532,0532,GM0532,Stede Broec,Stede Broec,27,PV27,Noord-Holland,true,true
+2023,G0534,0534,GM0534,Hillegom,Hillegom,28,PV28,Zuid-Holland,true,true
+2023,G0537,0537,GM0537,Katwijk,Katwijk,28,PV28,Zuid-Holland,true,true
+2023,G0542,0542,GM0542,Krimpen aan den IJssel,Krimpen aan den IJssel,28,PV28,Zuid-Holland,true,true
+2023,G0546,0546,GM0546,Leiden,Leiden,28,PV28,Zuid-Holland,true,true
+2023,G0547,0547,GM0547,Leiderdorp,Leiderdorp,28,PV28,Zuid-Holland,true,true
+2023,G0553,0553,GM0553,Lisse,Lisse,28,PV28,Zuid-Holland,true,true
+2023,G0556,0556,GM0556,Maassluis,Maassluis,28,PV28,Zuid-Holland,true,true
+2023,G0569,0569,GM0569,Nieuwkoop,Nieuwkoop,28,PV28,Zuid-Holland,true,true
+2023,G0575,0575,GM0575,Noordwijk,Noordwijk,28,PV28,Zuid-Holland,true,true
+2023,G0579,0579,GM0579,Oegstgeest,Oegstgeest,28,PV28,Zuid-Holland,true,true
+2023,G0589,0589,GM0589,Oudewater,Oudewater,26,PV26,Utrecht,true,true
+2023,G0590,0590,GM0590,Papendrecht,Papendrecht,28,PV28,Zuid-Holland,true,true
+2023,G0597,0597,GM0597,Ridderkerk,Ridderkerk,28,PV28,Zuid-Holland,true,true
+2023,G0599,0599,GM0599,Rotterdam,Rotterdam,28,PV28,Zuid-Holland,true,true
+2023,G0603,0603,GM0603,Rijswijk,Rijswijk,28,PV28,Zuid-Holland,true,true
+2023,G0606,0606,GM0606,Schiedam,Schiedam,28,PV28,Zuid-Holland,true,true
+2023,G0610,0610,GM0610,Sliedrecht,Sliedrecht,28,PV28,Zuid-Holland,true,true
+2023,G0613,0613,GM0613,Albrandswaard,Albrandswaard,28,PV28,Zuid-Holland,true,true
+2023,G0622,0622,GM0622,Vlaardingen,Vlaardingen,28,PV28,Zuid-Holland,true,true
+2023,G0626,0626,GM0626,Voorschoten,Voorschoten,28,PV28,Zuid-Holland,true,true
+2023,G0627,0627,GM0627,Waddinxveen,Waddinxveen,28,PV28,Zuid-Holland,true,true
+2023,G0629,0629,GM0629,Wassenaar,Wassenaar,28,PV28,Zuid-Holland,true,true
+2023,G0632,0632,GM0632,Woerden,Woerden,26,PV26,Utrecht,true,true
+2023,G0637,0637,GM0637,Zoetermeer,Zoetermeer,28,PV28,Zuid-Holland,true,true
+2023,G0638,0638,GM0638,Zoeterwoude,Zoeterwoude,28,PV28,Zuid-Holland,true,true
+2023,G0642,0642,GM0642,Zwijndrecht,Zwijndrecht,28,PV28,Zuid-Holland,true,true
+2023,G0654,0654,GM0654,Borsele,Borsele,29,PV29,Zeeland,true,true
+2023,G0664,0664,GM0664,Goes,Goes,29,PV29,Zeeland,true,true
+2023,G0668,0668,GM0668,West Maas en Waal,West Maas en Waal,25,PV25,Gelderland,true,true
+2023,G0677,0677,GM0677,Hulst,Hulst,29,PV29,Zeeland,true,true
+2023,G0678,0678,GM0678,Kapelle,Kapelle,29,PV29,Zeeland,true,true
+2023,G0687,0687,GM0687,Middelburg,Middelburg,29,PV29,Zeeland,true,true
+2023,G0703,0703,GM0703,Reimerswaal,Reimerswaal,29,PV29,Zeeland,true,true
+2023,G0715,0715,GM0715,Terneuzen,Terneuzen,29,PV29,Zeeland,true,true
+2023,G0716,0716,GM0716,Tholen,Tholen,29,PV29,Zeeland,true,true
+2023,G0717,0717,GM0717,Veere,Veere,29,PV29,Zeeland,true,true
+2023,G0718,0718,GM0718,Vlissingen,Vlissingen,29,PV29,Zeeland,true,true
+2023,G0736,0736,GM0736,De Ronde Venen,De Ronde Venen,26,PV26,Utrecht,true,true
+2023,G0737,0737,GM0737,Tytsjerksteradiel,Tytsjerksteradiel,21,PV21,Fryslân,true,true
+2023,G0743,0743,GM0743,Asten,Asten,30,PV30,Noord-Brabant,true,true
+2023,G0744,0744,GM0744,Baarle-Nassau,Baarle-Nassau,30,PV30,Noord-Brabant,true,true
+2023,G0748,0748,GM0748,Bergen op Zoom,Bergen op Zoom,30,PV30,Noord-Brabant,true,true
+2023,G0753,0753,GM0753,Best,Best,30,PV30,Noord-Brabant,true,true
+2023,G0755,0755,GM0755,Boekel,Boekel,30,PV30,Noord-Brabant,true,true
+2023,G0757,0757,GM0757,Boxtel,Boxtel,30,PV30,Noord-Brabant,true,true
+2023,G0758,0758,GM0758,Breda,Breda,30,PV30,Noord-Brabant,true,true
+2023,G0762,0762,GM0762,Deurne,Deurne,30,PV30,Noord-Brabant,true,true
+2023,G0765,0765,GM0765,Pekela,Pekela,20,PV20,Groningen,true,true
+2023,G0766,0766,GM0766,Dongen,Dongen,30,PV30,Noord-Brabant,true,true
+2023,G0770,0770,GM0770,Eersel,Eersel,30,PV30,Noord-Brabant,true,true
+2023,G0772,0772,GM0772,Eindhoven,Eindhoven,30,PV30,Noord-Brabant,true,true
+2023,G0777,0777,GM0777,Etten-Leur,Etten-Leur,30,PV30,Noord-Brabant,true,true
+2023,G0779,0779,GM0779,Geertruidenberg,Geertruidenberg,30,PV30,Noord-Brabant,true,true
+2023,G0784,0784,GM0784,Gilze en Rijen,Gilze en Rijen,30,PV30,Noord-Brabant,true,true
+2023,G0785,0785,GM0785,Goirle,Goirle,30,PV30,Noord-Brabant,true,true
+2023,G0794,0794,GM0794,Helmond,Helmond,30,PV30,Noord-Brabant,true,true
+2023,G0796,0796,GM0796,'s-Hertogenbosch,'s-Hertogenbosch,30,PV30,Noord-Brabant,true,true
+2023,G0797,0797,GM0797,Heusden,Heusden,30,PV30,Noord-Brabant,true,true
+2023,G0798,0798,GM0798,Hilvarenbeek,Hilvarenbeek,30,PV30,Noord-Brabant,true,true
+2023,G0809,0809,GM0809,Loon op Zand,Loon op Zand,30,PV30,Noord-Brabant,true,true
+2023,G0820,0820,GM0820,"Nuenen, Gerwen en Nederwetten","Nuenen, Gerwen en Nederwetten",30,PV30,Noord-Brabant,true,true
+2023,G0823,0823,GM0823,Oirschot,Oirschot,30,PV30,Noord-Brabant,true,true
+2023,G0824,0824,GM0824,Oisterwijk,Oisterwijk,30,PV30,Noord-Brabant,true,true
+2023,G0826,0826,GM0826,Oosterhout,Oosterhout,30,PV30,Noord-Brabant,true,true
+2023,G0828,0828,GM0828,Oss,Oss,30,PV30,Noord-Brabant,true,true
+2023,G0840,0840,GM0840,Rucphen,Rucphen,30,PV30,Noord-Brabant,true,true
+2023,G0845,0845,GM0845,Sint-Michielsgestel,Sint-Michielsgestel,30,PV30,Noord-Brabant,true,true
+2023,G0847,0847,GM0847,Someren,Someren,30,PV30,Noord-Brabant,true,true
+2023,G0848,0848,GM0848,Son en Breugel,Son en Breugel,30,PV30,Noord-Brabant,true,true
+2023,G0851,0851,GM0851,Steenbergen,Steenbergen,30,PV30,Noord-Brabant,true,true
+2023,G0852,0852,GM0852,Waterland,Waterland,27,PV27,Noord-Holland,true,true
+2023,G0855,0855,GM0855,Tilburg,Tilburg,30,PV30,Noord-Brabant,true,true
+2023,G0858,0858,GM0858,Valkenswaard,Valkenswaard,30,PV30,Noord-Brabant,true,true
+2023,G0861,0861,GM0861,Veldhoven,Veldhoven,30,PV30,Noord-Brabant,true,true
+2023,G0865,0865,GM0865,Vught,Vught,30,PV30,Noord-Brabant,true,true
+2023,G0866,0866,GM0866,Waalre,Waalre,30,PV30,Noord-Brabant,true,true
+2023,G0867,0867,GM0867,Waalwijk,Waalwijk,30,PV30,Noord-Brabant,true,true
+2023,G0873,0873,GM0873,Woensdrecht,Woensdrecht,30,PV30,Noord-Brabant,true,true
+2023,G0879,0879,GM0879,Zundert,Zundert,30,PV30,Noord-Brabant,true,true
+2023,G0880,0880,GM0880,Wormerland,Wormerland,27,PV27,Noord-Holland,true,true
+2023,G0882,0882,GM0882,Landgraaf,Landgraaf,31,PV31,Limburg,true,true
+2023,G0888,0888,GM0888,Beek,Beek,31,PV31,Limburg,true,true
+2023,G0889,0889,GM0889,Beesel,Beesel,31,PV31,Limburg,true,true
+2023,G0893,0893,GM0893,Bergen (L),Bergen (L.),31,PV31,Limburg,false,true
+2023,G0899,0899,GM0899,Brunssum,Brunssum,31,PV31,Limburg,true,true
+2023,G0907,0907,GM0907,Gennep,Gennep,31,PV31,Limburg,true,true
+2023,G0917,0917,GM0917,Heerlen,Heerlen,31,PV31,Limburg,true,true
+2023,G0928,0928,GM0928,Kerkrade,Kerkrade,31,PV31,Limburg,true,true
+2023,G0935,0935,GM0935,Maastricht,Maastricht,31,PV31,Limburg,true,true
+2023,G0938,0938,GM0938,Meerssen,Meerssen,31,PV31,Limburg,true,true
+2023,G0944,0944,GM0944,Mook en Middelaar,Mook en Middelaar,31,PV31,Limburg,true,true
+2023,G0946,0946,GM0946,Nederweert,Nederweert,31,PV31,Limburg,true,true
+2023,G0957,0957,GM0957,Roermond,Roermond,31,PV31,Limburg,true,true
+2023,G0965,0965,GM0965,Simpelveld,Simpelveld,31,PV31,Limburg,true,true
+2023,G0971,0971,GM0971,Stein,Stein,31,PV31,Limburg,true,true
+2023,G0981,0981,GM0981,Vaals,Vaals,31,PV31,Limburg,true,true
+2023,G0983,0983,GM0983,Venlo,Venlo,31,PV31,Limburg,true,true
+2023,G0984,0984,GM0984,Venray,Venray,31,PV31,Limburg,true,true
+2023,G0986,0986,GM0986,Voerendaal,Voerendaal,31,PV31,Limburg,true,true
+2023,G0988,0988,GM0988,Weert,Weert,31,PV31,Limburg,true,true
+2023,G0994,0994,GM0994,Valkenburg aan de Geul,Valkenburg aan de Geul,31,PV31,Limburg,true,true
+2023,G0995,0995,GM0995,Lelystad,Lelystad,24,PV24,Flevoland,true,true
+2023,G1507,1507,GM1507,Horst aan de Maas,Horst aan de Maas,31,PV31,Limburg,true,true
+2023,G1509,1509,GM1509,Oude IJsselstreek,Oude IJsselstreek,25,PV25,Gelderland,true,true
+2023,G1525,1525,GM1525,Teylingen,Teylingen,28,PV28,Zuid-Holland,true,true
+2023,G1581,1581,GM1581,Utrechtse Heuvelrug,Utrechtse Heuvelrug,26,PV26,Utrecht,true,true
+2023,G1586,1586,GM1586,Oost Gelre,Oost Gelre,25,PV25,Gelderland,true,true
+2023,G1598,1598,GM1598,Koggenland,Koggenland,27,PV27,Noord-Holland,true,true
+2023,G1621,1621,GM1621,Lansingerland,Lansingerland,28,PV28,Zuid-Holland,true,true
+2023,G1640,1640,GM1640,Leudal,Leudal,31,PV31,Limburg,true,true
+2023,G1641,1641,GM1641,Maasgouw,Maasgouw,31,PV31,Limburg,true,true
+2023,G1652,1652,GM1652,Gemert-Bakel,Gemert-Bakel,30,PV30,Noord-Brabant,true,true
+2023,G1655,1655,GM1655,Halderberge,Halderberge,30,PV30,Noord-Brabant,true,true
+2023,G1658,1658,GM1658,Heeze-Leende,Heeze-Leende,30,PV30,Noord-Brabant,true,true
+2023,G1659,1659,GM1659,Laarbeek,Laarbeek,30,PV30,Noord-Brabant,true,true
+2023,G1667,1667,GM1667,Reusel-De Mierden,Reusel-De Mierden,30,PV30,Noord-Brabant,true,true
+2023,G1669,1669,GM1669,Roerdalen,Roerdalen,31,PV31,Limburg,true,true
+2023,G1674,1674,GM1674,Roosendaal,Roosendaal,30,PV30,Noord-Brabant,true,true
+2023,G1676,1676,GM1676,Schouwen-Duiveland,Schouwen-Duiveland,29,PV29,Zeeland,true,true
+2023,G1680,1680,GM1680,Aa en Hunze,Aa en Hunze,22,PV22,Drenthe,true,true
+2023,G1681,1681,GM1681,Borger-Odoorn,Borger-Odoorn,22,PV22,Drenthe,true,true
+2023,G1690,1690,GM1690,De Wolden,De Wolden,22,PV22,Drenthe,true,true
+2023,G1695,1695,GM1695,Noord-Beveland,Noord-Beveland,29,PV29,Zeeland,true,true
+2023,G1696,1696,GM1696,Wijdemeren,Wijdemeren,27,PV27,Noord-Holland,true,true
+2023,G1699,1699,GM1699,Noordenveld,Noordenveld,22,PV22,Drenthe,true,true
+2023,G1700,1700,GM1700,Twenterand,Twenterand,23,PV23,Overijssel,true,true
+2023,G1701,1701,GM1701,Westerveld,Westerveld,22,PV22,Drenthe,true,true
+2023,G1705,1705,GM1705,Lingewaard,Lingewaard,25,PV25,Gelderland,true,true
+2023,G1706,1706,GM1706,Cranendonck,Cranendonck,30,PV30,Noord-Brabant,true,true
+2023,G1708,1708,GM1708,Steenwijkerland,Steenwijkerland,23,PV23,Overijssel,true,true
+2023,G1709,1709,GM1709,Moerdijk,Moerdijk,30,PV30,Noord-Brabant,true,true
+2023,G1711,1711,GM1711,Echt-Susteren,Echt-Susteren,31,PV31,Limburg,true,true
+2023,G1714,1714,GM1714,Sluis,Sluis,29,PV29,Zeeland,true,true
+2023,G1719,1719,GM1719,Drimmelen,Drimmelen,30,PV30,Noord-Brabant,true,true
+2023,G1721,1721,GM1721,Bernheze,Bernheze,30,PV30,Noord-Brabant,true,true
+2023,G1723,1723,GM1723,Alphen-Chaam,Alphen-Chaam,30,PV30,Noord-Brabant,true,true
+2023,G1724,1724,GM1724,Bergeijk,Bergeijk,30,PV30,Noord-Brabant,true,true
+2023,G1728,1728,GM1728,Bladel,Bladel,30,PV30,Noord-Brabant,true,true
+2023,G1729,1729,GM1729,Gulpen-Wittem,Gulpen-Wittem,31,PV31,Limburg,true,true
+2023,G1730,1730,GM1730,Tynaarlo,Tynaarlo,22,PV22,Drenthe,true,true
+2023,G1731,1731,GM1731,Midden-Drenthe,Midden-Drenthe,22,PV22,Drenthe,true,true
+2023,G1734,1734,GM1734,Overbetuwe,Overbetuwe,25,PV25,Gelderland,true,true
+2023,G1735,1735,GM1735,Hof van Twente,Hof van Twente,23,PV23,Overijssel,true,true
+2023,G1740,1740,GM1740,Neder-Betuwe,Neder-Betuwe,25,PV25,Gelderland,true,true
+2023,G1742,1742,GM1742,Rijssen-Holten,Rijssen-Holten,23,PV23,Overijssel,true,true
+2023,G1771,1771,GM1771,Geldrop-Mierlo,Geldrop-Mierlo,30,PV30,Noord-Brabant,true,true
+2023,G1773,1773,GM1773,Olst-Wijhe,Olst-Wijhe,23,PV23,Overijssel,true,true
+2023,G1774,1774,GM1774,Dinkelland,Dinkelland,23,PV23,Overijssel,true,true
+2023,G1783,1783,GM1783,Westland,Westland,28,PV28,Zuid-Holland,true,true
+2023,G1842,1842,GM1842,Midden-Delfland,Midden-Delfland,28,PV28,Zuid-Holland,true,true
+2023,G1859,1859,GM1859,Berkelland,Berkelland,25,PV25,Gelderland,true,true
+2023,G1876,1876,GM1876,Bronckhorst,Bronckhorst,25,PV25,Gelderland,true,true
+2023,G1883,1883,GM1883,Sittard-Geleen,Sittard-Geleen,31,PV31,Limburg,true,true
+2023,G1884,1884,GM1884,Kaag en Braassem,Kaag en Braassem,28,PV28,Zuid-Holland,true,true
+2023,G1891,1891,GM1891,Dantumadiel,Dantumadiel,21,PV21,Fryslân,true,true
+2023,G1892,1892,GM1892,Zuidplas,Zuidplas,28,PV28,Zuid-Holland,true,true
+2023,G1894,1894,GM1894,Peel en Maas,Peel en Maas,31,PV31,Limburg,true,true
+2023,G1895,1895,GM1895,Oldambt,Oldambt,20,PV20,Groningen,true,true
+2023,G1896,1896,GM1896,Zwartewaterland,Zwartewaterland,23,PV23,Overijssel,true,true
+2023,G1900,1900,GM1900,Súdwest-Fryslân,Súdwest-Fryslân,21,PV21,Fryslân,true,true
+2023,G1901,1901,GM1901,Bodegraven-Reeuwijk,Bodegraven-Reeuwijk,28,PV28,Zuid-Holland,true,true
+2023,G1903,1903,GM1903,Eijsden-Margraten,Eijsden-Margraten,31,PV31,Limburg,true,true
+2023,G1904,1904,GM1904,Stichtse Vecht,Stichtse Vecht,26,PV26,Utrecht,true,true
+2023,G1911,1911,GM1911,Hollands Kroon,Hollands Kroon,27,PV27,Noord-Holland,true,true
+2023,G1916,1916,GM1916,Leidschendam-Voorburg,Leidschendam-Voorburg,28,PV28,Zuid-Holland,true,true
+2023,G1924,1924,GM1924,Goeree-Overflakkee,Goeree-Overflakkee,28,PV28,Zuid-Holland,true,true
+2023,G1926,1926,GM1926,Pijnacker-Nootdorp,Pijnacker-Nootdorp,28,PV28,Zuid-Holland,true,true
+2023,G1930,1930,GM1930,Nissewaard,Nissewaard,28,PV28,Zuid-Holland,true,true
+2023,G1931,1931,GM1931,Krimpenerwaard,Krimpenerwaard,28,PV28,Zuid-Holland,true,true
+2023,G1940,1940,GM1940,De Fryske Marren,De Fryske Marren,21,PV21,Fryslân,true,true
+2023,G1942,1942,GM1942,Gooise Meren,Gooise Meren,27,PV27,Noord-Holland,true,true
+2023,G1945,1945,GM1945,Berg en Dal,Berg en Dal,25,PV25,Gelderland,true,true
+2023,G1948,1948,GM1948,Meierijstad,Meierijstad,30,PV30,Noord-Brabant,true,true
+2023,G1949,1949,GM1949,Waadhoeke,Waadhoeke,21,PV21,Fryslân,true,true
+2023,G1950,1950,GM1950,Westerwolde,Westerwolde,20,PV20,Groningen,true,true
+2023,G1952,1952,GM1952,Midden-Groningen,Midden-Groningen,20,PV20,Groningen,true,true
+2023,G1954,1954,GM1954,Beekdaelen,Beekdaelen,31,PV31,Limburg,true,true
+2023,G1955,1955,GM1955,Montferland,Montferland,25,PV25,Gelderland,true,true
+2023,G1959,1959,GM1959,Altena,Altena,30,PV30,Noord-Brabant,true,true
+2023,G1960,1960,GM1960,West Betuwe,West Betuwe,25,PV25,Gelderland,true,true
+2023,G1961,1961,GM1961,Vijfheerenlanden,Vijfheerenlanden,26,PV26,Utrecht,true,true
+2023,G1963,1963,GM1963,Hoeksche Waard,Hoeksche Waard,28,PV28,Zuid-Holland,true,true
+2023,G1966,1966,GM1966,Het Hogeland,Het Hogeland,20,PV20,Groningen,true,true
+2023,G1969,1969,GM1969,Westerkwartier,Westerkwartier,20,PV20,Groningen,true,true
+2023,G1970,1970,GM1970,Noardeast-Fryslân,Noardeast-Fryslân,21,PV21,Fryslân,true,true
+2023,G1978,1978,GM1978,Molenlanden,Molenlanden,28,PV28,Zuid-Holland,true,true
+2023,G1979,1979,GM1979,Eemsdelta,Eemsdelta,20,PV20,Groningen,true,true
+2023,G1980,1980,GM1980,Dijk en Waard,Dijk en Waard,27,PV27,Noord-Holland,true,true
+2023,G1982,1982,GM1982,Land van Cuijk,Land van Cuijk,30,PV30,Noord-Brabant,true,true
+2023,G1991,1991,GM1991,Maashorst,Maashorst,30,PV30,Noord-Brabant,true,true
+2023,G1992,1992,GM1992,Voorne aan Zee,Voorne aan Zee,28,PV28,Zuid-Holland,true,true
+2025,G0014,0014,GM0014,Groningen,Groningen,20,PV20,Groningen,true,true
+2025,G0034,0034,GM0034,Almere,Almere,24,PV24,Flevoland,true,true
+2025,G0037,0037,GM0037,Stadskanaal,Stadskanaal,20,PV20,Groningen,true,true
+2025,G0047,0047,GM0047,Veendam,Veendam,20,PV20,Groningen,true,true
+2025,G0050,0050,GM0050,Zeewolde,Zeewolde,24,PV24,Flevoland,true,true
+2025,G0059,0059,GM0059,Achtkarspelen,Achtkarspelen,21,PV21,Fryslân,true,true
+2025,G0060,0060,GM0060,Ameland,Ameland,21,PV21,Fryslân,true,true
+2025,G0072,0072,GM0072,Harlingen,Harlingen,21,PV21,Fryslân,true,true
+2025,G0074,0074,GM0074,Heerenveen,Heerenveen,21,PV21,Fryslân,true,true
+2025,G0080,0080,GM0080,Leeuwarden,Leeuwarden,21,PV21,Fryslân,true,true
+2025,G0085,0085,GM0085,Ooststellingwerf,Ooststellingwerf,21,PV21,Fryslân,true,true
+2025,G0086,0086,GM0086,Opsterland,Opsterland,21,PV21,Fryslân,true,true
+2025,G0088,0088,GM0088,Schiermonnikoog,Schiermonnikoog,21,PV21,Fryslân,true,true
+2025,G0090,0090,GM0090,Smallingerland,Smallingerland,21,PV21,Fryslân,true,true
+2025,G0093,0093,GM0093,Terschelling,Terschelling,21,PV21,Fryslân,true,true
+2025,G0096,0096,GM0096,Vlieland,Vlieland,21,PV21,Fryslân,true,true
+2025,G0098,0098,GM0098,Weststellingwerf,Weststellingwerf,21,PV21,Fryslân,true,true
+2025,G0106,0106,GM0106,Assen,Assen,22,PV22,Drenthe,true,true
+2025,G0109,0109,GM0109,Coevorden,Coevorden,22,PV22,Drenthe,true,true
+2025,G0114,0114,GM0114,Emmen,Emmen,22,PV22,Drenthe,true,true
+2025,G0118,0118,GM0118,Hoogeveen,Hoogeveen,22,PV22,Drenthe,true,true
+2025,G0119,0119,GM0119,Meppel,Meppel,22,PV22,Drenthe,true,true
+2025,G0141,0141,GM0141,Almelo,Almelo,23,PV23,Overijssel,true,true
+2025,G0147,0147,GM0147,Borne,Borne,23,PV23,Overijssel,true,true
+2025,G0148,0148,GM0148,Dalfsen,Dalfsen,23,PV23,Overijssel,true,true
+2025,G0150,0150,GM0150,Deventer,Deventer,23,PV23,Overijssel,true,true
+2025,G0153,0153,GM0153,Enschede,Enschede,23,PV23,Overijssel,true,true
+2025,G0158,0158,GM0158,Haaksbergen,Haaksbergen,23,PV23,Overijssel,true,true
+2025,G0160,0160,GM0160,Hardenberg,Hardenberg,23,PV23,Overijssel,true,true
+2025,G0163,0163,GM0163,Hellendoorn,Hellendoorn,23,PV23,Overijssel,true,true
+2025,G0164,0164,GM0164,Hengelo (O),Hengelo (O.),23,PV23,Overijssel,false,true
+2025,G0166,0166,GM0166,Kampen,Kampen,23,PV23,Overijssel,true,true
+2025,G0168,0168,GM0168,Losser,Losser,23,PV23,Overijssel,true,true
+2025,G0171,0171,GM0171,Noordoostpolder,Noordoostpolder,24,PV24,Flevoland,true,true
+2025,G0173,0173,GM0173,Oldenzaal,Oldenzaal,23,PV23,Overijssel,true,true
+2025,G0175,0175,GM0175,Ommen,Ommen,23,PV23,Overijssel,true,true
+2025,G0177,0177,GM0177,Raalte,Raalte,23,PV23,Overijssel,true,true
+2025,G0180,0180,GM0180,Staphorst,Staphorst,23,PV23,Overijssel,true,true
+2025,G0183,0183,GM0183,Tubbergen,Tubbergen,23,PV23,Overijssel,true,true
+2025,G0184,0184,GM0184,Urk,Urk,24,PV24,Flevoland,true,true
+2025,G0189,0189,GM0189,Wierden,Wierden,23,PV23,Overijssel,true,true
+2025,G0193,0193,GM0193,Zwolle,Zwolle,23,PV23,Overijssel,true,true
+2025,G0197,0197,GM0197,Aalten,Aalten,25,PV25,Gelderland,true,true
+2025,G0200,0200,GM0200,Apeldoorn,Apeldoorn,25,PV25,Gelderland,true,true
+2025,G0202,0202,GM0202,Arnhem,Arnhem,25,PV25,Gelderland,true,true
+2025,G0203,0203,GM0203,Barneveld,Barneveld,25,PV25,Gelderland,true,true
+2025,G0209,0209,GM0209,Beuningen,Beuningen,25,PV25,Gelderland,true,true
+2025,G0213,0213,GM0213,Brummen,Brummen,25,PV25,Gelderland,true,true
+2025,G0214,0214,GM0214,Buren,Buren,25,PV25,Gelderland,true,true
+2025,G0216,0216,GM0216,Culemborg,Culemborg,25,PV25,Gelderland,true,true
+2025,G0221,0221,GM0221,Doesburg,Doesburg,25,PV25,Gelderland,true,true
+2025,G0222,0222,GM0222,Doetinchem,Doetinchem,25,PV25,Gelderland,true,true
+2025,G0225,0225,GM0225,Druten,Druten,25,PV25,Gelderland,true,true
+2025,G0226,0226,GM0226,Duiven,Duiven,25,PV25,Gelderland,true,true
+2025,G0228,0228,GM0228,Ede,Ede,25,PV25,Gelderland,true,true
+2025,G0230,0230,GM0230,Elburg,Elburg,25,PV25,Gelderland,true,true
+2025,G0232,0232,GM0232,Epe,Epe,25,PV25,Gelderland,true,true
+2025,G0233,0233,GM0233,Ermelo,Ermelo,25,PV25,Gelderland,true,true
+2025,G0243,0243,GM0243,Harderwijk,Harderwijk,25,PV25,Gelderland,true,true
+2025,G0244,0244,GM0244,Hattem,Hattem,25,PV25,Gelderland,true,true
+2025,G0246,0246,GM0246,Heerde,Heerde,25,PV25,Gelderland,true,true
+2025,G0252,0252,GM0252,Heumen,Heumen,25,PV25,Gelderland,true,true
+2025,G0262,0262,GM0262,Lochem,Lochem,25,PV25,Gelderland,true,true
+2025,G0263,0263,GM0263,Maasdriel,Maasdriel,25,PV25,Gelderland,true,true
+2025,G0267,0267,GM0267,Nijkerk,Nijkerk,25,PV25,Gelderland,true,true
+2025,G0268,0268,GM0268,Nijmegen,Nijmegen,25,PV25,Gelderland,true,true
+2025,G0269,0269,GM0269,Oldebroek,Oldebroek,25,PV25,Gelderland,true,true
+2025,G0273,0273,GM0273,Putten,Putten,25,PV25,Gelderland,true,true
+2025,G0274,0274,GM0274,Renkum,Renkum,25,PV25,Gelderland,true,true
+2025,G0275,0275,GM0275,Rheden,Rheden,25,PV25,Gelderland,true,true
+2025,G0277,0277,GM0277,Rozendaal,Rozendaal,25,PV25,Gelderland,true,true
+2025,G0279,0279,GM0279,Scherpenzeel,Scherpenzeel,25,PV25,Gelderland,true,true
+2025,G0281,0281,GM0281,Tiel,Tiel,25,PV25,Gelderland,true,true
+2025,G0285,0285,GM0285,Voorst,Voorst,25,PV25,Gelderland,true,true
+2025,G0289,0289,GM0289,Wageningen,Wageningen,25,PV25,Gelderland,true,true
+2025,G0293,0293,GM0293,Westervoort,Westervoort,25,PV25,Gelderland,true,true
+2025,G0294,0294,GM0294,Winterswijk,Winterswijk,25,PV25,Gelderland,true,true
+2025,G0296,0296,GM0296,Wijchen,Wijchen,25,PV25,Gelderland,true,true
+2025,G0297,0297,GM0297,Zaltbommel,Zaltbommel,25,PV25,Gelderland,true,true
+2025,G0299,0299,GM0299,Zevenaar,Zevenaar,25,PV25,Gelderland,true,true
+2025,G0301,0301,GM0301,Zutphen,Zutphen,25,PV25,Gelderland,true,true
+2025,G0302,0302,GM0302,Nunspeet,Nunspeet,25,PV25,Gelderland,true,true
+2025,G0303,0303,GM0303,Dronten,Dronten,24,PV24,Flevoland,true,true
+2025,G0307,0307,GM0307,Amersfoort,Amersfoort,26,PV26,Utrecht,true,true
+2025,G0308,0308,GM0308,Baarn,Baarn,26,PV26,Utrecht,true,true
+2025,G0310,0310,GM0310,De Bilt,De Bilt,26,PV26,Utrecht,true,true
+2025,G0312,0312,GM0312,Bunnik,Bunnik,26,PV26,Utrecht,true,true
+2025,G0313,0313,GM0313,Bunschoten,Bunschoten,26,PV26,Utrecht,true,true
+2025,G0317,0317,GM0317,Eemnes,Eemnes,26,PV26,Utrecht,true,true
+2025,G0321,0321,GM0321,Houten,Houten,26,PV26,Utrecht,true,true
+2025,G0327,0327,GM0327,Leusden,Leusden,26,PV26,Utrecht,true,true
+2025,G0331,0331,GM0331,Lopik,Lopik,26,PV26,Utrecht,true,true
+2025,G0335,0335,GM0335,Montfoort,Montfoort,26,PV26,Utrecht,true,true
+2025,G0339,0339,GM0339,Renswoude,Renswoude,26,PV26,Utrecht,true,true
+2025,G0340,0340,GM0340,Rhenen,Rhenen,26,PV26,Utrecht,true,true
+2025,G0342,0342,GM0342,Soest,Soest,26,PV26,Utrecht,true,true
+2025,G0344,0344,GM0344,Utrecht,Utrecht,26,PV26,Utrecht,true,true
+2025,G0345,0345,GM0345,Veenendaal,Veenendaal,26,PV26,Utrecht,true,true
+2025,G0351,0351,GM0351,Woudenberg,Woudenberg,26,PV26,Utrecht,true,true
+2025,G0352,0352,GM0352,Wijk bij Duurstede,Wijk bij Duurstede,26,PV26,Utrecht,true,true
+2025,G0353,0353,GM0353,IJsselstein,IJsselstein,26,PV26,Utrecht,true,true
+2025,G0355,0355,GM0355,Zeist,Zeist,26,PV26,Utrecht,true,true
+2025,G0356,0356,GM0356,Nieuwegein,Nieuwegein,26,PV26,Utrecht,true,true
+2025,G0358,0358,GM0358,Aalsmeer,Aalsmeer,27,PV27,Noord-Holland,true,true
+2025,G0361,0361,GM0361,Alkmaar,Alkmaar,27,PV27,Noord-Holland,true,true
+2025,G0362,0362,GM0362,Amstelveen,Amstelveen,27,PV27,Noord-Holland,true,true
+2025,G0363,0363,GM0363,Amsterdam,Amsterdam,27,PV27,Noord-Holland,true,true
+2025,G0373,0373,GM0373,Bergen (NH),Bergen (NH.),27,PV27,Noord-Holland,false,true
+2025,G0375,0375,GM0375,Beverwijk,Beverwijk,27,PV27,Noord-Holland,true,true
+2025,G0376,0376,GM0376,Blaricum,Blaricum,27,PV27,Noord-Holland,true,true
+2025,G0377,0377,GM0377,Bloemendaal,Bloemendaal,27,PV27,Noord-Holland,true,true
+2025,G0383,0383,GM0383,Castricum,Castricum,27,PV27,Noord-Holland,true,true
+2025,G0384,0384,GM0384,Diemen,Diemen,27,PV27,Noord-Holland,true,true
+2025,G0385,0385,GM0385,Edam-Volendam,Edam-Volendam,27,PV27,Noord-Holland,true,true
+2025,G0388,0388,GM0388,Enkhuizen,Enkhuizen,27,PV27,Noord-Holland,true,true
+2025,G0392,0392,GM0392,Haarlem,Haarlem,27,PV27,Noord-Holland,true,true
+2025,G0394,0394,GM0394,Haarlemmermeer,Haarlemmermeer,27,PV27,Noord-Holland,true,true
+2025,G0396,0396,GM0396,Heemskerk,Heemskerk,27,PV27,Noord-Holland,true,true
+2025,G0397,0397,GM0397,Heemstede,Heemstede,27,PV27,Noord-Holland,true,true
+2025,G0399,0399,GM0399,Heiloo,Heiloo,27,PV27,Noord-Holland,true,true
+2025,G0400,0400,GM0400,Den Helder,Den Helder,27,PV27,Noord-Holland,true,true
+2025,G0402,0402,GM0402,Hilversum,Hilversum,27,PV27,Noord-Holland,true,true
+2025,G0405,0405,GM0405,Hoorn,Hoorn,27,PV27,Noord-Holland,true,true
+2025,G0406,0406,GM0406,Huizen,Huizen,27,PV27,Noord-Holland,true,true
+2025,G0415,0415,GM0415,Landsmeer,Landsmeer,27,PV27,Noord-Holland,true,true
+2025,G0417,0417,GM0417,Laren,Laren (NH.),27,PV27,Noord-Holland,false,true
+2025,G0420,0420,GM0420,Medemblik,Medemblik,27,PV27,Noord-Holland,true,true
+2025,G0431,0431,GM0431,Oostzaan,Oostzaan,27,PV27,Noord-Holland,true,true
+2025,G0432,0432,GM0432,Opmeer,Opmeer,27,PV27,Noord-Holland,true,true
+2025,G0437,0437,GM0437,Ouder-Amstel,Ouder-Amstel,27,PV27,Noord-Holland,true,true
+2025,G0439,0439,GM0439,Purmerend,Purmerend,27,PV27,Noord-Holland,true,true
+2025,G0441,0441,GM0441,Schagen,Schagen,27,PV27,Noord-Holland,true,true
+2025,G0448,0448,GM0448,Texel,Texel,27,PV27,Noord-Holland,true,true
+2025,G0450,0450,GM0450,Uitgeest,Uitgeest,27,PV27,Noord-Holland,true,true
+2025,G0451,0451,GM0451,Uithoorn,Uithoorn,27,PV27,Noord-Holland,true,true
+2025,G0453,0453,GM0453,Velsen,Velsen,27,PV27,Noord-Holland,true,true
+2025,G0473,0473,GM0473,Zandvoort,Zandvoort,27,PV27,Noord-Holland,true,true
+2025,G0479,0479,GM0479,Zaanstad,Zaanstad,27,PV27,Noord-Holland,true,true
+2025,G0482,0482,GM0482,Alblasserdam,Alblasserdam,28,PV28,Zuid-Holland,true,true
+2025,G0484,0484,GM0484,Alphen aan den Rijn,Alphen aan den Rijn,28,PV28,Zuid-Holland,true,true
+2025,G0489,0489,GM0489,Barendrecht,Barendrecht,28,PV28,Zuid-Holland,true,true
+2025,G0498,0498,GM0498,Drechterland,Drechterland,27,PV27,Noord-Holland,true,true
+2025,G0502,0502,GM0502,Capelle aan den IJssel,Capelle aan den IJssel,28,PV28,Zuid-Holland,true,true
+2025,G0503,0503,GM0503,Delft,Delft,28,PV28,Zuid-Holland,true,true
+2025,G0505,0505,GM0505,Dordrecht,Dordrecht,28,PV28,Zuid-Holland,true,true
+2025,G0512,0512,GM0512,Gorinchem,Gorinchem,28,PV28,Zuid-Holland,true,true
+2025,G0513,0513,GM0513,Gouda,Gouda,28,PV28,Zuid-Holland,true,true
+2025,G0518,0518,GM0518,'s-Gravenhage,'s-Gravenhage,28,PV28,Zuid-Holland,true,true
+2025,G0523,0523,GM0523,Hardinxveld-Giessendam,Hardinxveld-Giessendam,28,PV28,Zuid-Holland,true,true
+2025,G0531,0531,GM0531,Hendrik-Ido-Ambacht,Hendrik-Ido-Ambacht,28,PV28,Zuid-Holland,true,true
+2025,G0532,0532,GM0532,Stede Broec,Stede Broec,27,PV27,Noord-Holland,true,true
+2025,G0534,0534,GM0534,Hillegom,Hillegom,28,PV28,Zuid-Holland,true,true
+2025,G0537,0537,GM0537,Katwijk,Katwijk,28,PV28,Zuid-Holland,true,true
+2025,G0542,0542,GM0542,Krimpen aan den IJssel,Krimpen aan den IJssel,28,PV28,Zuid-Holland,true,true
+2025,G0546,0546,GM0546,Leiden,Leiden,28,PV28,Zuid-Holland,true,true
+2025,G0547,0547,GM0547,Leiderdorp,Leiderdorp,28,PV28,Zuid-Holland,true,true
+2025,G0553,0553,GM0553,Lisse,Lisse,28,PV28,Zuid-Holland,true,true
+2025,G0556,0556,GM0556,Maassluis,Maassluis,28,PV28,Zuid-Holland,true,true
+2025,G0569,0569,GM0569,Nieuwkoop,Nieuwkoop,28,PV28,Zuid-Holland,true,true
+2025,G0575,0575,GM0575,Noordwijk,Noordwijk,28,PV28,Zuid-Holland,true,true
+2025,G0579,0579,GM0579,Oegstgeest,Oegstgeest,28,PV28,Zuid-Holland,true,true
+2025,G0589,0589,GM0589,Oudewater,Oudewater,26,PV26,Utrecht,true,true
+2025,G0590,0590,GM0590,Papendrecht,Papendrecht,28,PV28,Zuid-Holland,true,true
+2025,G0597,0597,GM0597,Ridderkerk,Ridderkerk,28,PV28,Zuid-Holland,true,true
+2025,G0599,0599,GM0599,Rotterdam,Rotterdam,28,PV28,Zuid-Holland,true,true
+2025,G0603,0603,GM0603,Rijswijk,Rijswijk (ZH.),28,PV28,Zuid-Holland,false,true
+2025,G0606,0606,GM0606,Schiedam,Schiedam,28,PV28,Zuid-Holland,true,true
+2025,G0610,0610,GM0610,Sliedrecht,Sliedrecht,28,PV28,Zuid-Holland,true,true
+2025,G0613,0613,GM0613,Albrandswaard,Albrandswaard,28,PV28,Zuid-Holland,true,true
+2025,G0622,0622,GM0622,Vlaardingen,Vlaardingen,28,PV28,Zuid-Holland,true,true
+2025,G0626,0626,GM0626,Voorschoten,Voorschoten,28,PV28,Zuid-Holland,true,true
+2025,G0627,0627,GM0627,Waddinxveen,Waddinxveen,28,PV28,Zuid-Holland,true,true
+2025,G0629,0629,GM0629,Wassenaar,Wassenaar,28,PV28,Zuid-Holland,true,true
+2025,G0632,0632,GM0632,Woerden,Woerden,26,PV26,Utrecht,true,true
+2025,G0637,0637,GM0637,Zoetermeer,Zoetermeer,28,PV28,Zuid-Holland,true,true
+2025,G0638,0638,GM0638,Zoeterwoude,Zoeterwoude,28,PV28,Zuid-Holland,true,true
+2025,G0642,0642,GM0642,Zwijndrecht,Zwijndrecht,28,PV28,Zuid-Holland,true,true
+2025,G0654,0654,GM0654,Borsele,Borsele,29,PV29,Zeeland,true,true
+2025,G0664,0664,GM0664,Goes,Goes,29,PV29,Zeeland,true,true
+2025,G0668,0668,GM0668,West Maas en Waal,West Maas en Waal,25,PV25,Gelderland,true,true
+2025,G0677,0677,GM0677,Hulst,Hulst,29,PV29,Zeeland,true,true
+2025,G0678,0678,GM0678,Kapelle,Kapelle,29,PV29,Zeeland,true,true
+2025,G0687,0687,GM0687,Middelburg,Middelburg (Z.),29,PV29,Zeeland,false,true
+2025,G0703,0703,GM0703,Reimerswaal,Reimerswaal,29,PV29,Zeeland,true,true
+2025,G0715,0715,GM0715,Terneuzen,Terneuzen,29,PV29,Zeeland,true,true
+2025,G0716,0716,GM0716,Tholen,Tholen,29,PV29,Zeeland,true,true
+2025,G0717,0717,GM0717,Veere,Veere,29,PV29,Zeeland,true,true
+2025,G0718,0718,GM0718,Vlissingen,Vlissingen,29,PV29,Zeeland,true,true
+2025,G0736,0736,GM0736,De Ronde Venen,De Ronde Venen,26,PV26,Utrecht,true,true
+2025,G0737,0737,GM0737,Tytsjerksteradiel,Tytsjerksteradiel,21,PV21,Fryslân,true,true
+2025,G0743,0743,GM0743,Asten,Asten,30,PV30,Noord-Brabant,true,true
+2025,G0744,0744,GM0744,Baarle-Nassau,Baarle-Nassau,30,PV30,Noord-Brabant,true,true
+2025,G0748,0748,GM0748,Bergen op Zoom,Bergen op Zoom,30,PV30,Noord-Brabant,true,true
+2025,G0753,0753,GM0753,Best,Best,30,PV30,Noord-Brabant,true,true
+2025,G0755,0755,GM0755,Boekel,Boekel,30,PV30,Noord-Brabant,true,true
+2025,G0757,0757,GM0757,Boxtel,Boxtel,30,PV30,Noord-Brabant,true,true
+2025,G0758,0758,GM0758,Breda,Breda,30,PV30,Noord-Brabant,true,true
+2025,G0762,0762,GM0762,Deurne,Deurne,30,PV30,Noord-Brabant,true,true
+2025,G0765,0765,GM0765,Pekela,Pekela,20,PV20,Groningen,true,true
+2025,G0766,0766,GM0766,Dongen,Dongen,30,PV30,Noord-Brabant,true,true
+2025,G0770,0770,GM0770,Eersel,Eersel,30,PV30,Noord-Brabant,true,true
+2025,G0772,0772,GM0772,Eindhoven,Eindhoven,30,PV30,Noord-Brabant,true,true
+2025,G0777,0777,GM0777,Etten-Leur,Etten-Leur,30,PV30,Noord-Brabant,true,true
+2025,G0779,0779,GM0779,Geertruidenberg,Geertruidenberg,30,PV30,Noord-Brabant,true,true
+2025,G0784,0784,GM0784,Gilze en Rijen,Gilze en Rijen,30,PV30,Noord-Brabant,true,true
+2025,G0785,0785,GM0785,Goirle,Goirle,30,PV30,Noord-Brabant,true,true
+2025,G0794,0794,GM0794,Helmond,Helmond,30,PV30,Noord-Brabant,true,true
+2025,G0796,0796,GM0796,'s-Hertogenbosch,'s-Hertogenbosch,30,PV30,Noord-Brabant,true,true
+2025,G0797,0797,GM0797,Heusden,Heusden,30,PV30,Noord-Brabant,true,true
+2025,G0798,0798,GM0798,Hilvarenbeek,Hilvarenbeek,30,PV30,Noord-Brabant,true,true
+2025,G0809,0809,GM0809,Loon op Zand,Loon op Zand,30,PV30,Noord-Brabant,true,true
+2025,G0820,0820,GM0820,"Nuenen, Gerwen en Nederwetten","Nuenen, Gerwen en Nederwetten",30,PV30,Noord-Brabant,true,true
+2025,G0823,0823,GM0823,Oirschot,Oirschot,30,PV30,Noord-Brabant,true,true
+2025,G0824,0824,GM0824,Oisterwijk,Oisterwijk,30,PV30,Noord-Brabant,true,true
+2025,G0826,0826,GM0826,Oosterhout,Oosterhout,30,PV30,Noord-Brabant,true,true
+2025,G0828,0828,GM0828,Oss,Oss,30,PV30,Noord-Brabant,true,true
+2025,G0840,0840,GM0840,Rucphen,Rucphen,30,PV30,Noord-Brabant,true,true
+2025,G0845,0845,GM0845,Sint-Michielsgestel,Sint-Michielsgestel,30,PV30,Noord-Brabant,true,true
+2025,G0847,0847,GM0847,Someren,Someren,30,PV30,Noord-Brabant,true,true
+2025,G0848,0848,GM0848,Son en Breugel,Son en Breugel,30,PV30,Noord-Brabant,true,true
+2025,G0851,0851,GM0851,Steenbergen,Steenbergen,30,PV30,Noord-Brabant,true,true
+2025,G0852,0852,GM0852,Waterland,Waterland,27,PV27,Noord-Holland,true,true
+2025,G0855,0855,GM0855,Tilburg,Tilburg,30,PV30,Noord-Brabant,true,true
+2025,G0858,0858,GM0858,Valkenswaard,Valkenswaard,30,PV30,Noord-Brabant,true,true
+2025,G0861,0861,GM0861,Veldhoven,Veldhoven,30,PV30,Noord-Brabant,true,true
+2025,G0865,0865,GM0865,Vught,Vught,30,PV30,Noord-Brabant,true,true
+2025,G0866,0866,GM0866,Waalre,Waalre,30,PV30,Noord-Brabant,true,true
+2025,G0867,0867,GM0867,Waalwijk,Waalwijk,30,PV30,Noord-Brabant,true,true
+2025,G0873,0873,GM0873,Woensdrecht,Woensdrecht,30,PV30,Noord-Brabant,true,true
+2025,G0879,0879,GM0879,Zundert,Zundert,30,PV30,Noord-Brabant,true,true
+2025,G0880,0880,GM0880,Wormerland,Wormerland,27,PV27,Noord-Holland,true,true
+2025,G0882,0882,GM0882,Landgraaf,Landgraaf,31,PV31,Limburg,true,true
+2025,G0888,0888,GM0888,Beek,Beek (L.),31,PV31,Limburg,false,true
+2025,G0889,0889,GM0889,Beesel,Beesel,31,PV31,Limburg,true,true
+2025,G0893,0893,GM0893,Bergen (L),Bergen (L.),31,PV31,Limburg,false,true
+2025,G0899,0899,GM0899,Brunssum,Brunssum,31,PV31,Limburg,true,true
+2025,G0907,0907,GM0907,Gennep,Gennep,31,PV31,Limburg,true,true
+2025,G0917,0917,GM0917,Heerlen,Heerlen,31,PV31,Limburg,true,true
+2025,G0928,0928,GM0928,Kerkrade,Kerkrade,31,PV31,Limburg,true,true
+2025,G0935,0935,GM0935,Maastricht,Maastricht,31,PV31,Limburg,true,true
+2025,G0938,0938,GM0938,Meerssen,Meerssen,31,PV31,Limburg,true,true
+2025,G0944,0944,GM0944,Mook en Middelaar,Mook en Middelaar,31,PV31,Limburg,true,true
+2025,G0946,0946,GM0946,Nederweert,Nederweert,31,PV31,Limburg,true,true
+2025,G0957,0957,GM0957,Roermond,Roermond,31,PV31,Limburg,true,true
+2025,G0965,0965,GM0965,Simpelveld,Simpelveld,31,PV31,Limburg,true,true
+2025,G0971,0971,GM0971,Stein,Stein (L.),31,PV31,Limburg,false,true
+2025,G0981,0981,GM0981,Vaals,Vaals,31,PV31,Limburg,true,true
+2025,G0983,0983,GM0983,Venlo,Venlo,31,PV31,Limburg,true,true
+2025,G0984,0984,GM0984,Venray,Venray,31,PV31,Limburg,true,true
+2025,G0986,0986,GM0986,Voerendaal,Voerendaal,31,PV31,Limburg,true,true
+2025,G0988,0988,GM0988,Weert,Weert,31,PV31,Limburg,true,true
+2025,G0994,0994,GM0994,Valkenburg aan de Geul,Valkenburg aan de Geul,31,PV31,Limburg,true,true
+2025,G0995,0995,GM0995,Lelystad,Lelystad,24,PV24,Flevoland,true,true
+2025,G1507,1507,GM1507,Horst aan de Maas,Horst aan de Maas,31,PV31,Limburg,true,true
+2025,G1509,1509,GM1509,Oude IJsselstreek,Oude IJsselstreek,25,PV25,Gelderland,true,true
+2025,G1525,1525,GM1525,Teylingen,Teylingen,28,PV28,Zuid-Holland,true,true
+2025,G1581,1581,GM1581,Utrechtse Heuvelrug,Utrechtse Heuvelrug,26,PV26,Utrecht,true,true
+2025,G1586,1586,GM1586,Oost Gelre,Oost Gelre,25,PV25,Gelderland,true,true
+2025,G1598,1598,GM1598,Koggenland,Koggenland,27,PV27,Noord-Holland,true,true
+2025,G1621,1621,GM1621,Lansingerland,Lansingerland,28,PV28,Zuid-Holland,true,true
+2025,G1640,1640,GM1640,Leudal,Leudal,31,PV31,Limburg,true,true
+2025,G1641,1641,GM1641,Maasgouw,Maasgouw,31,PV31,Limburg,true,true
+2025,G1652,1652,GM1652,Gemert-Bakel,Gemert-Bakel,30,PV30,Noord-Brabant,true,true
+2025,G1655,1655,GM1655,Halderberge,Halderberge,30,PV30,Noord-Brabant,true,true
+2025,G1658,1658,GM1658,Heeze-Leende,Heeze-Leende,30,PV30,Noord-Brabant,true,true
+2025,G1659,1659,GM1659,Laarbeek,Laarbeek,30,PV30,Noord-Brabant,true,true
+2025,G1667,1667,GM1667,Reusel-De Mierden,Reusel-De Mierden,30,PV30,Noord-Brabant,true,true
+2025,G1669,1669,GM1669,Roerdalen,Roerdalen,31,PV31,Limburg,true,true
+2025,G1674,1674,GM1674,Roosendaal,Roosendaal,30,PV30,Noord-Brabant,true,true
+2025,G1676,1676,GM1676,Schouwen-Duiveland,Schouwen-Duiveland,29,PV29,Zeeland,true,true
+2025,G1680,1680,GM1680,Aa en Hunze,Aa en Hunze,22,PV22,Drenthe,true,true
+2025,G1681,1681,GM1681,Borger-Odoorn,Borger-Odoorn,22,PV22,Drenthe,true,true
+2025,G1690,1690,GM1690,De Wolden,De Wolden,22,PV22,Drenthe,true,true
+2025,G1695,1695,GM1695,Noord-Beveland,Noord-Beveland,29,PV29,Zeeland,true,true
+2025,G1696,1696,GM1696,Wijdemeren,Wijdemeren,27,PV27,Noord-Holland,true,true
+2025,G1699,1699,GM1699,Noordenveld,Noordenveld,22,PV22,Drenthe,true,true
+2025,G1700,1700,GM1700,Twenterand,Twenterand,23,PV23,Overijssel,true,true
+2025,G1701,1701,GM1701,Westerveld,Westerveld,22,PV22,Drenthe,true,true
+2025,G1705,1705,GM1705,Lingewaard,Lingewaard,25,PV25,Gelderland,true,true
+2025,G1706,1706,GM1706,Cranendonck,Cranendonck,30,PV30,Noord-Brabant,true,true
+2025,G1708,1708,GM1708,Steenwijkerland,Steenwijkerland,23,PV23,Overijssel,true,true
+2025,G1709,1709,GM1709,Moerdijk,Moerdijk,30,PV30,Noord-Brabant,true,true
+2025,G1711,1711,GM1711,Echt-Susteren,Echt-Susteren,31,PV31,Limburg,true,true
+2025,G1714,1714,GM1714,Sluis,Sluis,29,PV29,Zeeland,true,true
+2025,G1719,1719,GM1719,Drimmelen,Drimmelen,30,PV30,Noord-Brabant,true,true
+2025,G1721,1721,GM1721,Bernheze,Bernheze,30,PV30,Noord-Brabant,true,true
+2025,G1723,1723,GM1723,Alphen-Chaam,Alphen-Chaam,30,PV30,Noord-Brabant,true,true
+2025,G1724,1724,GM1724,Bergeijk,Bergeijk,30,PV30,Noord-Brabant,true,true
+2025,G1728,1728,GM1728,Bladel,Bladel,30,PV30,Noord-Brabant,true,true
+2025,G1729,1729,GM1729,Gulpen-Wittem,Gulpen-Wittem,31,PV31,Limburg,true,true
+2025,G1730,1730,GM1730,Tynaarlo,Tynaarlo,22,PV22,Drenthe,true,true
+2025,G1731,1731,GM1731,Midden-Drenthe,Midden-Drenthe,22,PV22,Drenthe,true,true
+2025,G1734,1734,GM1734,Overbetuwe,Overbetuwe,25,PV25,Gelderland,true,true
+2025,G1735,1735,GM1735,Hof van Twente,Hof van Twente,23,PV23,Overijssel,true,true
+2025,G1740,1740,GM1740,Neder-Betuwe,Neder-Betuwe,25,PV25,Gelderland,true,true
+2025,G1742,1742,GM1742,Rijssen-Holten,Rijssen-Holten,23,PV23,Overijssel,true,true
+2025,G1771,1771,GM1771,Geldrop-Mierlo,Geldrop-Mierlo,30,PV30,Noord-Brabant,true,true
+2025,G1773,1773,GM1773,Olst-Wijhe,Olst-Wijhe,23,PV23,Overijssel,true,true
+2025,G1774,1774,GM1774,Dinkelland,Dinkelland,23,PV23,Overijssel,true,true
+2025,G1783,1783,GM1783,Westland,Westland,28,PV28,Zuid-Holland,true,true
+2025,G1842,1842,GM1842,Midden-Delfland,Midden-Delfland,28,PV28,Zuid-Holland,true,true
+2025,G1859,1859,GM1859,Berkelland,Berkelland,25,PV25,Gelderland,true,true
+2025,G1876,1876,GM1876,Bronckhorst,Bronckhorst,25,PV25,Gelderland,true,true
+2025,G1883,1883,GM1883,Sittard-Geleen,Sittard-Geleen,31,PV31,Limburg,true,true
+2025,G1884,1884,GM1884,Kaag en Braassem,Kaag en Braassem,28,PV28,Zuid-Holland,true,true
+2025,G1891,1891,GM1891,Dantumadiel,Dantumadiel,21,PV21,Fryslân,true,true
+2025,G1892,1892,GM1892,Zuidplas,Zuidplas,28,PV28,Zuid-Holland,true,true
+2025,G1894,1894,GM1894,Peel en Maas,Peel en Maas,31,PV31,Limburg,true,true
+2025,G1895,1895,GM1895,Oldambt,Oldambt,20,PV20,Groningen,true,true
+2025,G1896,1896,GM1896,Zwartewaterland,Zwartewaterland,23,PV23,Overijssel,true,true
+2025,G1900,1900,GM1900,Súdwest-Fryslân,Súdwest-Fryslân,21,PV21,Fryslân,true,true
+2025,G1901,1901,GM1901,Bodegraven-Reeuwijk,Bodegraven-Reeuwijk,28,PV28,Zuid-Holland,true,true
+2025,G1903,1903,GM1903,Eijsden-Margraten,Eijsden-Margraten,31,PV31,Limburg,true,true
+2025,G1904,1904,GM1904,Stichtse Vecht,Stichtse Vecht,26,PV26,Utrecht,true,true
+2025,G1911,1911,GM1911,Hollands Kroon,Hollands Kroon,27,PV27,Noord-Holland,true,true
+2025,G1916,1916,GM1916,Leidschendam-Voorburg,Leidschendam-Voorburg,28,PV28,Zuid-Holland,true,true
+2025,G1924,1924,GM1924,Goeree-Overflakkee,Goeree-Overflakkee,28,PV28,Zuid-Holland,true,true
+2025,G1926,1926,GM1926,Pijnacker-Nootdorp,Pijnacker-Nootdorp,28,PV28,Zuid-Holland,true,true
+2025,G1930,1930,GM1930,Nissewaard,Nissewaard,28,PV28,Zuid-Holland,true,true
+2025,G1931,1931,GM1931,Krimpenerwaard,Krimpenerwaard,28,PV28,Zuid-Holland,true,true
+2025,G1940,1940,GM1940,De Fryske Marren,De Fryske Marren,21,PV21,Fryslân,true,true
+2025,G1942,1942,GM1942,Gooise Meren,Gooise Meren,27,PV27,Noord-Holland,true,true
+2025,G1945,1945,GM1945,Berg en Dal,Berg en Dal,25,PV25,Gelderland,true,true
+2025,G1948,1948,GM1948,Meierijstad,Meierijstad,30,PV30,Noord-Brabant,true,true
+2025,G1949,1949,GM1949,Waadhoeke,Waadhoeke,21,PV21,Fryslân,true,true
+2025,G1950,1950,GM1950,Westerwolde,Westerwolde,20,PV20,Groningen,true,true
+2025,G1952,1952,GM1952,Midden-Groningen,Midden-Groningen,20,PV20,Groningen,true,true
+2025,G1954,1954,GM1954,Beekdaelen,Beekdaelen,31,PV31,Limburg,true,true
+2025,G1955,1955,GM1955,Montferland,Montferland,25,PV25,Gelderland,true,true
+2025,G1959,1959,GM1959,Altena,Altena,30,PV30,Noord-Brabant,true,true
+2025,G1960,1960,GM1960,West Betuwe,West Betuwe,25,PV25,Gelderland,true,true
+2025,G1961,1961,GM1961,Vijfheerenlanden,Vijfheerenlanden,26,PV26,Utrecht,true,true
+2025,G1963,1963,GM1963,Hoeksche Waard,Hoeksche Waard,28,PV28,Zuid-Holland,true,true
+2025,G1966,1966,GM1966,Het Hogeland,Het Hogeland,20,PV20,Groningen,true,true
+2025,G1969,1969,GM1969,Westerkwartier,Westerkwartier,20,PV20,Groningen,true,true
+2025,G1970,1970,GM1970,Noardeast-Fryslân,Noardeast-Fryslân,21,PV21,Fryslân,true,true
+2025,G1978,1978,GM1978,Molenlanden,Molenlanden,28,PV28,Zuid-Holland,true,true
+2025,G1979,1979,GM1979,Eemsdelta,Eemsdelta,20,PV20,Groningen,true,true
+2025,G1980,1980,GM1980,Dijk en Waard,Dijk en Waard,27,PV27,Noord-Holland,true,true
+2025,G1982,1982,GM1982,Land van Cuijk,Land van Cuijk,30,PV30,Noord-Brabant,true,true
+2025,G1991,1991,GM1991,Maashorst,Maashorst,30,PV30,Noord-Brabant,true,true
+2025,G1992,1992,GM1992,Voorne aan Zee,Voorne aan Zee,28,PV28,Zuid-Holland,true,true

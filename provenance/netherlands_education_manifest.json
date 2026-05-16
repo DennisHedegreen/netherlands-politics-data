@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-05-16T00:13:05Z",
+  "country_id": "netherlands",
+  "factor_id": "education",
+  "status": "internal_factor_candidate_with_coverage_gap",
+  "public_ready": false,
+  "source": {
+    "publisher": "CBS StatLine",
+    "table_identifier": "85525NED",
+    "title": "Bevolking; hoogstbehaald onderwijsniveau en regio",
+    "odata_base_url": "https://opendata.cbs.nl/ODataApi/OData/85525NED",
+    "filtered_dataset_url": "https://opendata.cbs.nl/ODataApi/OData/85525NED/TypedDataSet?$filter=Geslacht%20eq%20'T001038'%20and%20Leeftijd%20eq%20'52052'%20and%20(Perioden%20eq%20'2023JJ00'%20or%20Perioden%20eq%20'2024JJ00')",
+    "field_used": "k_3HboWo_4",
+    "field_title": "3 Hbo, wo",
+    "field_description": "Percentage of people aged 15 to 75 whose highest completed education level is hbo or wo, registered in a Dutch municipality on October 1 of the reporting year.",
+    "unit": "%",
+    "dimension_filter": {
+      "Geslacht": "T001038 - Totaal mannen en vrouwen",
+      "Leeftijd": "52052 - 15 tot 75 jaar",
+      "Perioden": {
+        "2023": "2023JJ00",
+        "2025": "2024JJ00"
+      }
+    },
+    "source_status_note": "CBS 85525NED covers 2013-2024. The 2025 election-year factor uses the latest available 2024 source period as a lagged structural context; 2024 is provisional and 2023 is definitive in the table note."
+  },
+  "raw_files": [
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/dataproperties.json",
+      "sha256": "835d2d9b884e6cb04e00d369456b00daf2cfd602735222e397c54e03a67c53ed",
+      "bytes": 8393
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/geslacht.json",
+      "sha256": "c8d058750da5bc8a9090e350425125ec67dd5787626a308b44052aa81f2ab60d",
+      "bytes": 416
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/leeftijd.json",
+      "sha256": "9289b053eb6096a28b476264db06242f96efbe1a1c18670c311aee3766c5452f",
+      "bytes": 776
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/perioden.json",
+      "sha256": "193322921671d23ad4be22c49af2c87ff3ab15ad84a9e2ac0061d14fc59cf2c1",
+      "bytes": 1203
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/regios.json",
+      "sha256": "011f825b7cb5e5ffa07872ea00ac7d64f11bec8a27ea6b67ebe27655fb453d1c",
+      "bytes": 88992
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/tableinfos.json",
+      "sha256": "d953444232cf1c0cf731ab816da8d991c49e9506902b52a12380608cbcff6af7",
+      "bytes": 7521
+    },
+    {
+      "path": "data/politics/netherlands/factors/education/raw/cbs-85525ned/typeddata-education-2023-2024.json",
+      "sha256": "0445f4bb46bd929d8a48a8d2e78227616369604cb4320e9e391285659ae9ed88",
+      "bytes": 602390
+    }
+  ],
+  "files_written": {
+    "factor_rows": 682,
+    "rows_by_year": {
+      "2023": 341,
+      "2025": 341
+    },
+    "outputs": [
+      "World-politics-data/netherlands/factors/education.csv"
+    ]
+  },
+  "checks": {
+    "coverage_by_year": {
+      "2023": {
+        "classification_municipalities": 342,
+        "education_rows": 341,
+        "missing_gm_codes": [],
+        "null_education_gm_codes": [
+          "GM0088"
+        ],
+        "min_education": 12.3,
+        "max_education": 59.1,
+        "total_education_sum_municipalities": null
+      },
+      "2025": {
+        "classification_municipalities": 342,
+        "education_rows": 341,
+        "missing_gm_codes": [],
+        "null_education_gm_codes": [
+          "GM0088"
+        ],
+        "min_education": 12.5,
+        "max_education": 58.6,
+        "total_education_sum_municipalities": null
+      }
+    },
+    "expected_municipalities_per_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "coverage_ok": false,
+    "known_gap": "GM0088 Schiermonnikoog has null education values in the CBS table for both source periods."
+  },
+  "normalization_rule": "Use CBS k_3HboWo_4 for total sex and age 15-75. Map 2023 election year to 2023JJ00 and 2025 election year to latest available 2024JJ00; do not backfill the null Schiermonnikoog value."
+}

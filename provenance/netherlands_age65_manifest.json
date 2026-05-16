@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-05-16T00:13:05Z",
+  "country_id": "netherlands",
+  "factor_id": "age65",
+  "status": "internal_factor_candidate",
+  "public_ready": false,
+  "source": {
+    "publisher": "CBS StatLine",
+    "table_identifier": "03759NED",
+    "title": "Bevolking op 1 januari en gemiddeld; geslacht, leeftijd en regio",
+    "odata_base_url": "https://opendata.cbs.nl/ODataApi/OData/03759NED",
+    "field_used": "BevolkingOp1Januari_1",
+    "field_title": "Bevolking op 1 januari",
+    "unit": "%",
+    "dimension_filter": {
+      "Geslacht": "T001038 - Totaal mannen en vrouwen",
+      "BurgerlijkeStaat": "T001019 - Totaal burgerlijke staat",
+      "Leeftijd": {
+        "included_codes": [
+          "16500",
+          "16600",
+          "16700",
+          "16800",
+          "16900",
+          "17000",
+          "17100",
+          "17200",
+          "17300",
+          "17400",
+          "17500",
+          "17600",
+          "17700",
+          "17800",
+          "17900",
+          "18000",
+          "18100",
+          "18200",
+          "18300",
+          "18400",
+          "18500",
+          "18600",
+          "18700",
+          "18800",
+          "18900",
+          "19000",
+          "19100",
+          "19200",
+          "19300",
+          "19400",
+          "22000"
+        ],
+        "rule": "Sum single-year ages 65-94 plus CBS age group 95 jaar of ouder (22000), then divide by total population on January 1."
+      },
+      "Perioden": [
+        "2023JJ00",
+        "2025JJ00"
+      ]
+    },
+    "source_status_note": "CBS query row limits required six smaller official TypedDataSet chunks. Non-GM regional rows are ignored during normalization."
+  },
+  "raw_files": [
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/burgerlijkestaat.json",
+      "sha256": "0735d15729060cb46166e0fe18b40b42bc5eaa6f233205561656b52e691d954e",
+      "bytes": 5359
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/dataproperties.json",
+      "sha256": "6996e63f74bdda43f783305e79c7441ec12c8801e0462c6eba6848b6a238ae44",
+      "bytes": 3663
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/geslacht.json",
+      "sha256": "ba37af90b59506bc0d853510bc4f13dd33860e914f0c20c1557ec85d66b66668",
+      "bytes": 416
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/leeftijd.json",
+      "sha256": "d3bff3aa8625af8e5b16248e8ae36731acd4ea94950e82d4fd71c5d1d87ca4ee",
+      "bytes": 9350
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/perioden.json",
+      "sha256": "c1487972a3c27034167f402d460a4238a8b341be20b0a41efc0ab6f017233c21",
+      "bytes": 3470
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/tableinfos.json",
+      "sha256": "29044d060adece50d14788b775ffa1ed4e32f3ff30f3d25fe423f557dfe5df18",
+      "bytes": 11202
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2023-a.json",
+      "sha256": "248d78ec6b4b174d2868381d21cbfa6abcd7509fb27780f0798d236cddbd8f70",
+      "bytes": 1679831
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2023-b.json",
+      "sha256": "4e224328f8daacbb23add1d62a8bafc53918e18adc05588b5fa2b55fd6909d18",
+      "bytes": 1678842
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2023-c.json",
+      "sha256": "60e20fa4524881cd87c7667a03aac9a79a45d37a0b2c3cd94c5ad9f4201de722",
+      "bytes": 1841949
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2025-a.json",
+      "sha256": "4312d62416177f90ca95674ba47f83dca082d7db2121e0d2eb31f80989ddc2fb",
+      "bytes": 1675618
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2025-b.json",
+      "sha256": "c391a52321791a0502ce4d51798322379ac21aa3001767d023809814451054da",
+      "bytes": 1675170
+    },
+    {
+      "path": "data/politics/netherlands/factors/age65/raw/cbs-03759ned/typeddata-age65-2025-c.json",
+      "sha256": "293c8906cc17f5440b231e4cb7d056c5b11710547b4198b24388ffe3beee5857",
+      "bytes": 1840215
+    }
+  ],
+  "files_written": {
+    "factor_rows": 684,
+    "rows_by_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "outputs": [
+      "World-politics-data/netherlands/factors/age65_pct.csv"
+    ]
+  },
+  "checks": {
+    "coverage_by_year": {
+      "2023": {
+        "classification_municipalities": 342,
+        "age65_rows": 342,
+        "missing_gm_codes": [],
+        "null_age65_gm_codes": [],
+        "missing_age_code_rows": [],
+        "min_age65": 10.09666,
+        "max_age65": 33.403013,
+        "total_age65_population_sum_municipalities": 3601167
+      },
+      "2025": {
+        "classification_municipalities": 342,
+        "age65_rows": 342,
+        "missing_gm_codes": [],
+        "null_age65_gm_codes": [],
+        "missing_age_code_rows": [],
+        "min_age65": 10.652595,
+        "max_age65": 34.597268,
+        "total_age65_population_sum_municipalities": 3755679
+      }
+    },
+    "expected_municipalities_per_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "coverage_ok": true
+  },
+  "normalization_rule": "For each municipality-year, sum BevolkingOp1Januari_1 for ages 65-94 and the CBS 95+ aggregate, then divide by the existing total population denominator from population.csv. Do not include the separate 95-104/105+ rows because 95+ is already represented by code 22000."
+}

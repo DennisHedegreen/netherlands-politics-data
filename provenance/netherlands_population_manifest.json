@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-05-16T00:13:05Z",
+  "country_id": "netherlands",
+  "factor_id": "population",
+  "status": "internal_factor_candidate",
+  "public_ready": false,
+  "source": {
+    "publisher": "CBS StatLine",
+    "table_identifier": "03759NED",
+    "title": "Bevolking op 1 januari en gemiddeld; geslacht, leeftijd en regio",
+    "odata_base_url": "https://opendata.cbs.nl/ODataApi/OData/03759NED",
+    "field_used": "BevolkingOp1Januari_1",
+    "field_title": "Bevolking op 1 januari",
+    "unit": "aantal"
+  },
+  "raw_files": [
+    {
+      "path": "data/politics/netherlands/factors/population/raw/cbs-03759ned/dataproperties.json",
+      "sha256": "6996e63f74bdda43f783305e79c7441ec12c8801e0462c6eba6848b6a238ae44",
+      "bytes": 3663
+    },
+    {
+      "path": "data/politics/netherlands/factors/population/raw/cbs-03759ned/perioden.json",
+      "sha256": "c1487972a3c27034167f402d460a4238a8b341be20b0a41efc0ab6f017233c21",
+      "bytes": 3470
+    },
+    {
+      "path": "data/politics/netherlands/factors/population/raw/cbs-03759ned/tableinfos.json",
+      "sha256": "29044d060adece50d14788b775ffa1ed4e32f3ff30f3d25fe423f557dfe5df18",
+      "bytes": 11202
+    },
+    {
+      "path": "data/politics/netherlands/factors/population/raw/cbs-03759ned/typeddata-population-2023-2025.json",
+      "sha256": "95aace89f5ad1f1c863a1c1f0785ab814fc13d804e865d76a56e087ace659d26",
+      "bytes": 347917
+    }
+  ],
+  "files_written": {
+    "factor_rows": 684,
+    "rows_by_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "outputs": [
+      "World-politics-data/netherlands/factors/population.csv"
+    ]
+  },
+  "checks": {
+    "coverage_by_year": {
+      "2023": {
+        "classification_municipalities": 342,
+        "population_rows": 342,
+        "missing_gm_codes": [],
+        "null_population_gm_codes": [],
+        "min_population": 982,
+        "max_population": 918117,
+        "total_population_sum_municipalities": 17811291
+      },
+      "2025": {
+        "classification_municipalities": 342,
+        "population_rows": 342,
+        "missing_gm_codes": [],
+        "null_population_gm_codes": [],
+        "min_population": 971,
+        "max_population": 934526,
+        "total_population_sum_municipalities": 18044027
+      }
+    },
+    "expected_municipalities_per_year": {
+      "2023": 342,
+      "2025": 342
+    },
+    "coverage_ok": true
+  },
+  "normalization_rule": "Use CBS BevolkingOp1Januari_1 for matching GM municipality codes in the annual CBS municipality classification; reference_period is January 1 of the election year."
+}
