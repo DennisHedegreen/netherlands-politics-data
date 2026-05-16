@@ -1,31 +1,56 @@
 # Dutch Politics Data
 
-A private Netherlands-only deploy mirror for the current Tweede Kamer municipality layer, kept internal until the Netherlands surface is honest enough for public release.
+Dutch Politics Data compares Dutch Tweede Kamer election vote shares with municipality-level structural factors. It is built for finding reporting leads and visible patterns, not for proving why people vote as they do.
+
+This repo is a private preview, not a public launch.
+
+## Private Preview
+
+- GitHub repo: [DennisHedegreen/netherlands-politics-data](https://github.com/DennisHedegreen/netherlands-politics-data)
+- Visibility: `private`
+- Live app: private Streamlit preview only after explicit deploy
+- Public status: `not public-ready`
+
+## Declared Scope
+
+- Country: Netherlands
+- Election type: Tweede Kamer
+- Unit of analysis: municipality
+- Municipality election years: `2023`, `2025`
+- National trend years: `2023`, `2025`
+- Preview geography: `European Netherlands municipality`
+- Factors: Population, Population density, Age 65+, Education, Income, One-person households, Owner-occupied housing, Cars
 
 This repo is the Netherlands-only private mirror extracted from the internal World-politics-data engine. It keeps the Dutch app shell, Netherlands data pack, source notes, and internal-only scope docs without pretending that the country surface is already public-ready.
 
-## Internal status
+## What You Can Do
 
-- Mirror visibility: `private`
-- Public launch status: `not public-ready`
-- GitHub repo: `https://github.com/DennisHedegreen/netherlands-politics-data`
+- Compare party vote share with one or more municipality-level factors.
+- Read whether the relationship is positive, negative, weak, moderate, or strong.
+- Inspect high and low municipalities before turning a pattern into a claim.
+- Use the result as a lead for reporting, not as the final story.
 
-## Current scope
+## What Not To Infer
 
-- Election type: `Tweede Kamer`
-- Municipality election years: `2023`, `2025`
-- National trend years: `2023`, `2025`
-- Mirror geography: `European Netherlands municipality`
-- Current live factors in the private shell: `population`, `population density`, `age65`, `education`, `income`, `one-person households`, `owner-occupied housing`, `cars`
+- Correlation is not causation.
+- Municipality-level patterns do not describe individual voters.
+- A strong result does not prove why people voted as they did.
+- A weak or missing result does not prove that a factor is irrelevant.
+- The app is not a prediction model, campaign tool, or causal engine.
 
-## Run locally
+## How To Read Results
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+Positive correlation means higher party vote share tends to appear in municipalities where the selected factor is higher. Negative correlation means higher party vote share tends to appear where the selected factor is lower. The result is ranked by absolute correlation strength, so `-0.62` is treated as stronger than `0.31`.
 
-## What this repo is not
+Example: if a party has `r = 0.58` with population density, a responsible reading is: "The party tended to have higher vote shares in denser municipalities in this election year." It is not: "Density made voters choose this party."
+
+## Quick Case
+
+A journalist could start with a strong party-factor result, open the high and low municipality tables, and ask a concrete reporting question: is this a real geographic pattern, a party-history pattern, or just a one-year artifact? The app gives the lead. The reporting still has to do the verification.
+
+See [METHODOLOGY.md](METHODOLOGY.md) before using results in public claims.
+
+## Boundary
 
 - Not a public launch
 - Not a cross-country Netherlands claim
@@ -33,7 +58,7 @@ streamlit run app.py
 - Not a full Netherlands election archive
 - Not a live turnout-factor release
 
-## Intentionally missing
+Intentionally missing:
 
 - `TID` public door and public website links
 - Public Streamlit deployment until Netherlands is explicitly declared public-ready
@@ -41,24 +66,33 @@ streamlit run app.py
 - Older Tweede Kamer years before the source and municipality semantics have been reviewed
 - Caribbean/NBSB material in the municipality layer
 
-## Data sources
+## Private Sources
 
 - Election source: `Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators`
-- Secondary source: `Internal candidate only; no public mirror or cross-country claim`
+- Boundary note: `Internal candidate only; no public mirror or cross-country claim`
 - Statistics source: `CBS StatLine`
+- Provenance notes: [provenance/](provenance/)
 
-## Repo structure
+## Repo Structure
 
 ```text
 app.py               Single-country private wrapper
 engine_app.py        Shared app shell extracted from the internal engine
-correlation_utils.py Shared correlation helpers
-country_registry.py  Single-country registry for this private mirror
-netherlands/               Country data pack and scope notes
-provenance/          Mirror manifests copied from the internal engine
-tests/               Country-surface smoke tests
+correlation_utils.py Compatibility import for correlation helpers
+core/                Runtime, presentation, correlation, and failure-state helpers
+country_registry.py  Netherlands-only private registry
+netherlands/         Country data pack and scope notes
+provenance/          Private-preview manifests
+tests/               Country-surface and logic contract tests
 ```
 
-## Source of truth
+## Source Of Truth
 
-This repo is a private country mirror. It exists to stage and verify Netherlands as a separate deploy surface while the shared internal engine still remains the only source of truth.
+This repo is a private country mirror. It exists to stage and verify Netherlands as a separate deploy surface while the shared internal engine still remains the only source of truth. Public claims should not cite this preview until the repo is explicitly promoted.
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
