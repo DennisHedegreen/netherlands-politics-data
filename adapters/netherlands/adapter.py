@@ -853,7 +853,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.title("By Municipality")
         st.markdown(
             "<p style='font-size:0.95rem;color:#5a5a6a;margin-bottom:1.5rem;'>"
-            "Pick a party and a year. See all Dutch municipalities ranked by vote share."
+            "Pick a party and a year. See where that party was strongest and weakest across European Netherlands municipalities."
             "</p>",
             unsafe_allow_html=True,
         )
@@ -876,11 +876,18 @@ def render(country_config, selected_country_label, runtime_context):
         top = filtered.iloc[0]
         bottom = filtered.iloc[-1]
         avg = filtered["share"].mean()
+        party_label = _format_party(party, country_config, party_name_mode, prose=True)
         st.markdown(
-            f"<p style='font-size:0.82rem;color:#3a3a4a;margin-bottom:0.8rem;'>"
-            f"<strong>Highest:</strong> {top['municipality']} ({top['share']:.1f}%) &nbsp;·&nbsp; "
-            f"<strong>Lowest:</strong> {bottom['municipality']} ({bottom['share']:.1f}%) &nbsp;·&nbsp; "
-            f"<strong>Avg:</strong> {avg:.1f}%</p>",
+            f"<p style='font-size:0.86rem;color:#3a3a4a;margin-bottom:0.35rem;'>"
+            f"In <strong>{year}</strong>, <strong>{party_label}</strong> had its highest municipality share in "
+            f"<strong>{top['municipality']}</strong> ({top['share']:.1f}%) and its lowest in "
+            f"<strong>{bottom['municipality']}</strong> ({bottom['share']:.1f}%). "
+            f"The unweighted municipality average was <strong>{avg:.1f}%</strong>.</p>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<p style='font-size:0.74rem;color:#8888a0;margin-bottom:0.8rem;'>"
+            "The table is sorted by local vote share. `Vote %` is the party's share of valid votes in that municipality, not the national result.</p>",
             unsafe_allow_html=True,
         )
         display = filtered[["municipality", "province", "votes", "valid_votes", "share"]].rename(
@@ -893,7 +900,7 @@ def render(country_config, selected_country_label, runtime_context):
             }
         )
         render_compact_dataframe(display)
-        with st.expander("Show full municipality bar chart"):
+        with st.expander("Show full municipality ranking chart"):
             render_bar_chart(
                 filtered.assign(municipality_label=filtered["municipality"]),
                 "municipality_label",
