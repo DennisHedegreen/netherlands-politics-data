@@ -322,7 +322,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.markdown("**Dutch Politics Data**")
         st.markdown(
             "<p style='font-size:0.75rem;color:#6a6a7a;line-height:1.6;margin-top:0.3rem;'>"
-            "Private Netherlands preview. Tweede Kamer 2023/2025, European municipalities only, with eight CBS structural factors."
+            "Public Netherlands preview. Tweede Kamer 2023/2025, European municipalities only, with eight CBS structural factors."
             "</p>",
             unsafe_allow_html=True,
         )
@@ -968,7 +968,10 @@ def render(country_config, selected_country_label, runtime_context):
         st.title("About & sources")
         st.markdown(
             f"""
-This is the Netherlands public-preview adapter extracted from `World-politics-data`.
+Tweede Kamer results for 2023 and 2025 across European Netherlands municipalities, cross-referenced with eight CBS municipality-level structural indicators.
+Built as a public preview for journalists and researchers. No login required. The data sources are public; the preview is not a TID launch.
+
+Built by [Hedegreen Research](https://hedegreenresearch.com).
 
 - Country: `{country_config.display_name}`
 - Election scope: `Tweede Kamer 2023` and `Tweede Kamer 2025`
@@ -986,8 +989,8 @@ The adapter deliberately excludes `G9010 NBSB`, Bonaire, Sint Eustatius, Saba, a
 **Publication boundary**
 
 - Public-preview surface only.
-- Public GitHub mirror is allowed; no TID door, public homepage link, or cross-country claim yet.
-- Full public-launch readiness still needs live Streamlit readback, source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
+- Public GitHub mirror and public Streamlit preview are allowed; no TID door, public homepage link, or cross-country claim yet.
+- Full public-launch readiness still needs post-deploy browser readback, source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
 """
         )
         st.markdown(
