@@ -3,7 +3,7 @@
 Public now:
 
 - public GitHub preview mirror: `netherlands-politics-data`
-- public-preview app shell, once Streamlit is deployed from the mirror
+- public-preview Streamlit app shell: `https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/`
 - preview-level README, methodology, provenance, and normalized output files
 
 Still not public-launched:
@@ -44,4 +44,4 @@ First internal boundary:
 
 Rule:
 
-The Netherlands is now allowed to exist as a public preview mirror. Do not expose the country from the shared public profile, add a TID door, or make cross-country claims until live preview readback, method wording, source rebuild scripting, and a separate TID-readiness decision are complete.
+The Netherlands is now allowed to exist as a public preview mirror and public Streamlit preview. Do not expose the country from the shared public profile, add a TID door, or make cross-country claims until post-deploy browser readback, method wording, source rebuild scripting, and a separate TID-readiness decision are complete.

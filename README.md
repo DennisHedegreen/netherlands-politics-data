@@ -8,6 +8,7 @@ This repo is a public preview, not a full public launch.
 
 - GitHub repo: [DennisHedegreen/netherlands-politics-data](https://github.com/DennisHedegreen/netherlands-politics-data)
 - Visibility: `public`
+- Live app: [netherlands-politics-data Streamlit app](https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/)
 - Public status: `preview`, not TID-launched
 
 ## Declared Scope

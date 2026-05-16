@@ -17,9 +17,13 @@ Check:
 - `National trends`
 - `About & Sources`
 
-## Streamlit Community Cloud draft
+## Live Streamlit Preview
 
-Use Streamlit Community Cloud with the GitHub repo already pushed:
+- Live app: [netherlands-politics-data Streamlit app](https://netherlands-politics-data-djf4pmqhx6wa4r6ft5z9xx.streamlit.app/)
+
+## Streamlit Community Cloud settings
+
+Current Streamlit Community Cloud settings:
 
 - Repository: `DennisHedegreen/netherlands-politics-data`
 - Branch: `main`
