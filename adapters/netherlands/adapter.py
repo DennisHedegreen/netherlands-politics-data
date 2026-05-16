@@ -158,20 +158,8 @@ def _factor_reference_period(metric_key: str, year: int, factor_frames) -> str:
     return refs[0] if refs else str(year)
 
 
-def _factor_source_note(metric_key: str, year: int, factor_frames) -> str:
-    reference_period = _factor_reference_period(metric_key, year, factor_frames)
-    parts = [f"source period {reference_period}"]
-    lagged = NETHERLANDS_LAGGED_FACTOR_NOTES.get(metric_key)
-    if lagged and reference_period != str(year):
-        parts.append(lagged)
-    method = NETHERLANDS_FACTOR_METHOD_NOTES.get(metric_key)
-    if method:
-        parts.append(method)
-    return " · ".join(parts)
-
-
-def _append_factor_source_note(note: str, metric_key: str, year: int, factor_frames) -> str:
-    return f"{note} · {_factor_source_note(metric_key, year, factor_frames)}"
+def _append_factor_source_pointer(note: str) -> str:
+    return f"{note} · Factor source notes are documented in About & sources."
 
 
 def _metric_items_for_year(year, factor_frames):
@@ -334,7 +322,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.markdown("**Dutch Politics Data**")
         st.markdown(
             "<p style='font-size:0.75rem;color:#6a6a7a;line-height:1.6;margin-top:0.3rem;'>"
-            "Internal Netherlands adapter. Tweede Kamer 2023/2025, European municipalities only, with eight CBS structural factors."
+            "Private Netherlands preview. Tweede Kamer 2023/2025, European municipalities only, with eight CBS structural factors."
             "</p>",
             unsafe_allow_html=True,
         )
@@ -417,15 +405,6 @@ def render(country_config, selected_country_label, runtime_context):
                 "</p>",
                 unsafe_allow_html=True,
             )
-        else:
-            with st.expander("Source-period notes for selected factors"):
-                st.markdown(
-                    "\n".join(
-                        f"- **{label}** - {_factor_source_note(factor_label_to_key[label], year, factor_frames)}"
-                        for label in selected_metric_labels
-                        if label in factor_label_to_key
-                    )
-                )
 
         party_profiles = get_netherlands_party_profiles(municipal_year)
         all_party_options = party_profiles["party"].tolist()
@@ -610,7 +589,7 @@ def render(country_config, selected_country_label, runtime_context):
                 party_name_mode,
                 country_config,
             )
-            note = _append_factor_source_note(note, row["metric_key"], year, factor_frames)
+            note = _append_factor_source_pointer(note)
             st.markdown(
                 _finding_html(strength_cls, strength_tag, headline, concrete, copy_sentence, note),
                 unsafe_allow_html=True,
@@ -670,7 +649,7 @@ def render(country_config, selected_country_label, runtime_context):
                 strength_cls, strength_tag, headline, concrete, copy_sentence, note = build_country_finding(
                     row["r"], row["factor"], row["label"], row["party"], year, row["merged"], party_name_mode, country_config
                 )
-                note = _append_factor_source_note(note, row["metric_key"], year, factor_frames)
+                note = _append_factor_source_pointer(note)
                 st.markdown(_finding_html(strength_cls, strength_tag, headline, concrete, copy_sentence, note), unsafe_allow_html=True)
             if no_pattern:
                 st.markdown(
@@ -706,7 +685,7 @@ def render(country_config, selected_country_label, runtime_context):
                 strength_cls, strength_tag, headline, concrete, copy_sentence, note = build_country_finding(
                     row["r"], row["factor"], row["label"], row["party"], year, row["merged"], party_name_mode, country_config
                 )
-                note = _append_factor_source_note(note, row["metric_key"], year, factor_frames)
+                note = _append_factor_source_pointer(note)
                 st.markdown(_finding_html(strength_cls, strength_tag, headline, concrete, copy_sentence, note), unsafe_allow_html=True)
             if no_pattern:
                 st.markdown(
@@ -729,7 +708,7 @@ def render(country_config, selected_country_label, runtime_context):
                 party_name_mode,
                 country_config,
             )
-            note = _append_factor_source_note(note, top["metric_key"], year, factor_frames)
+            note = _append_factor_source_pointer(note)
             st.markdown(
                 "<p style='font-size:0.75rem;color:#aaaabc;margin-bottom:0.5rem;'>"
                 "Showing highest correlation across selected factors and parties. Use the full correlation table to inspect all results.</p>",
@@ -844,7 +823,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.markdown("## Current factor profile")
         st.markdown(
             "<p style='font-size:0.82rem;color:#6a6a7a;margin-bottom:0.8rem;'>"
-            "Factor profile using the selected election year. Source periods are shown per factor because some 2025 structural layers use 2024 source data.</p>",
+            "Factor profile using the selected election year. Detailed source periods and method boundaries are documented in About & sources.</p>",
             unsafe_allow_html=True,
         )
         geo_lookup = compare_votes.drop_duplicates("municipality").set_index("municipality")["public_geography_id"]
@@ -861,8 +840,6 @@ def render(country_config, selected_country_label, runtime_context):
                     mun_a: f"{left_value.iloc[0]:.2f}" if not left_value.empty else "—",
                     mun_b: f"{right_value.iloc[0]:.2f}" if not right_value.empty else "—",
                     "Year": str(compare_year),
-                    "Reference": _factor_reference_period(metric_key, compare_year, factor_frames),
-                    "Note": NETHERLANDS_LAGGED_FACTOR_NOTES.get(metric_key, "") if _factor_reference_period(metric_key, compare_year, factor_frames) != str(compare_year) else "",
                 }
             )
         render_profile_cards(cards, mun_a, mun_b)
