@@ -1,6 +1,6 @@
 # Netherlands Tweede Kamer Outputs
 
-Internal candidate output room for Netherlands `Tweede Kamer` election data.
+Public-preview output room for Netherlands `Tweede Kamer` election data.
 
 Current file:
 
@@ -10,11 +10,11 @@ Current file:
 
 Status:
 
-- internal normalized candidate
+- normalized preview candidate
 - `2023` and `2025`
-- internal runtime adapter draft exists
-- internal registry/profile exposure exists
-- not public-ready
+- public-preview runtime adapter exists
+- public-preview mirror exposure exists
+- not TID-launched
 
 Current output:
 
@@ -64,4 +64,4 @@ Provenance:
 
 - `../../provenance/netherlands_tk_normalization_manifest.json`
 
-Do not promote Netherlands beyond the internal registry/profile gate from this file alone. The national output is now source-backed, but public exposure still needs turnout holdback wording, source wording review, and a separate release decision.
+Do not promote Netherlands beyond the public-preview gate from this file alone. The national output is source-backed, but TID/public-homepage exposure still needs live Streamlit readback, turnout holdback wording, source wording review, and a separate release decision.

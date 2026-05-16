@@ -1,6 +1,6 @@
 # Deploy
 
-Netherlands private mirror deploy checklist.
+Netherlands public preview deploy checklist.
 
 ## Local smoke
 
@@ -30,22 +30,21 @@ Use Streamlit Community Cloud with the GitHub repo already pushed:
 
 Deploy privacy:
 
-- The GitHub repo is private.
-- Keep the Streamlit app private for this phase.
-- Community Cloud may require GitHub private-repo access before the repo appears in the deploy picker.
-- Community Cloud currently allows only one private app at a time, so delete or publicize any old private test app first if the deploy form blocks this one.
+- The GitHub repo is public.
+- The Streamlit app may be public for this preview.
+- Keep TID/site links out until a separate public-launch decision exists.
 
-## Private mirror shape
+## Public preview shape
 
 - App title: `Dutch Politics Data`
 - Country exposure: `Netherlands` only
 - No public country selector
 - No TID door or public homepage updates in this phase
-- Internal-only until an explicit public-readiness decision exists
+- Public preview only until an explicit TID-readiness decision exists
 
 ## Before pushing live
 
 - confirm the netherlands data pack exists and loads cleanly
-- confirm the README and methodology still say `private mirror`
-- confirm internal-only notes still match the Netherlands boundary
-- confirm no public-door language slipped into the repo
+- confirm the README and methodology still say `public preview`
+- confirm boundary notes still match the Netherlands preview boundary
+- confirm no TID-door language slipped into the repo

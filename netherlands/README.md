@@ -1,6 +1,6 @@
-# Netherlands Private Data Pack
+# Netherlands Public Preview Data Pack
 
-Private data pack for `Dutch Politics Data`.
+Public Preview data pack for `Dutch Politics Data`.
 
 Included here:
 

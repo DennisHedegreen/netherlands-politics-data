@@ -44,11 +44,14 @@ Current state:
 - Explore, Compare, National trends, and About now show the source-period / method-boundary caveats inside the UI
 - National trends now uses the official `L528 / Nederland` source rows; the UI states that this national scope is separate from the European-municipality pattern layer
 - Turnout audit confirms the raw fields reconcile, but raw `Opkomst / Kiesgerechtigden` exceeds `100%` in some island municipalities
+- public GitHub preview mirror exists as `DennisHedegreen/netherlands-politics-data`
+- mirror readback passes locally and is ready for public Streamlit preview deployment
 
 Next useful passes:
 
-1. review public-readiness wording for the national-vs-European-municipality scope split and turnout holdback
-2. only then consider whether Netherlands deserves a private mirror
+1. deploy the public Streamlit preview from `netherlands-politics-data`
+2. record the live preview URL in the mirror docs
+3. run one live browser readback before any TID/public-homepage decision
 
 First no-go conditions:
 

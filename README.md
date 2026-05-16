@@ -2,14 +2,13 @@
 
 Dutch Politics Data compares Dutch Tweede Kamer election vote shares with municipality-level structural factors. It is built for finding reporting leads and visible patterns, not for proving why people vote as they do.
 
-This repo is a private preview, not a public launch.
+This repo is a public preview, not a full public launch.
 
-## Private Preview
+## Public Preview
 
 - GitHub repo: [DennisHedegreen/netherlands-politics-data](https://github.com/DennisHedegreen/netherlands-politics-data)
-- Visibility: `private`
-- Live app: private Streamlit preview only after explicit deploy
-- Public status: `not public-ready`
+- Visibility: `public`
+- Public status: `preview`, not TID-launched
 
 ## Declared Scope
 
@@ -21,7 +20,7 @@ This repo is a private preview, not a public launch.
 - Preview geography: `European Netherlands municipality`
 - Factors: Population, Population density, Age 65+, Education, Income, One-person households, Owner-occupied housing, Cars
 
-This repo is the Netherlands-only private mirror extracted from the internal World-politics-data engine. It keeps the Dutch app shell, Netherlands data pack, source notes, and internal-only scope docs without pretending that the country surface is already public-ready.
+This repo is the Netherlands-only public preview extracted from the internal World-politics-data engine. It keeps the Dutch app shell, Netherlands data pack, source notes, and scope docs without pretending that the country surface has already become a full public launch.
 
 ## What You Can Do
 
@@ -52,7 +51,7 @@ See [METHODOLOGY.md](METHODOLOGY.md) before using results in public claims.
 
 ## Boundary
 
-- Not a public launch
+- Not a TID launch
 - Not a cross-country Netherlands claim
 - Not a second source of truth beside `World-politics-data`
 - Not a full Netherlands election archive
@@ -61,34 +60,34 @@ See [METHODOLOGY.md](METHODOLOGY.md) before using results in public claims.
 Intentionally missing:
 
 - `TID` public door and public website links
-- Public Streamlit deployment until Netherlands is explicitly declared public-ready
+- Full public-launch wording until Netherlands is explicitly declared TID-ready
 - `Turnout` as a live factor until the Tweede Kamer audit layer is promoted deliberately
 - Older Tweede Kamer years before the source and municipality semantics have been reviewed
 - Caribbean/NBSB material in the municipality layer
 
-## Private Sources
+## Preview Sources
 
 - Election source: `Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators`
-- Boundary note: `Internal candidate only; no public mirror or cross-country claim`
+- Boundary note: `Public preview only; no TID door or cross-country claim`
 - Statistics source: `CBS StatLine`
 - Provenance notes: [provenance/](provenance/)
 
 ## Repo Structure
 
 ```text
-app.py               Single-country private wrapper
+app.py               Single-country public-preview wrapper
 engine_app.py        Shared app shell extracted from the internal engine
 correlation_utils.py Compatibility import for correlation helpers
 core/                Runtime, presentation, correlation, and failure-state helpers
-country_registry.py  Netherlands-only private registry
+country_registry.py  Netherlands-only public-preview registry
 netherlands/         Country data pack and scope notes
-provenance/          Private-preview manifests
+provenance/          Preview-safe manifests
 tests/               Country-surface and logic contract tests
 ```
 
 ## Source Of Truth
 
-This repo is a private country mirror. It exists to stage and verify Netherlands as a separate deploy surface while the shared internal engine still remains the only source of truth. Public claims should not cite this preview until the repo is explicitly promoted.
+This repo is a public preview surface. The shared internal source tree still exists separately and remains the source of truth for shell changes and future extraction work. Public claims should cite this repo cautiously and should not treat the preview as a final TID release.
 
 ## Run Locally
 

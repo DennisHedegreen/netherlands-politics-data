@@ -100,13 +100,13 @@ COUNTRY = CountryConfig(
     supported_factors=('population', 'density', 'age65', 'education', 'income', 'one_person_households', 'owner_occupied', 'cars'),
     supported_elections=('tweede_kamer',),
     internal_ready=True,
-    public_ready=False,
+    public_ready=True,
     municipal_vote_path=ROOT / "netherlands/tweede-kamer/tweede_kamer_party_share_by_municipality.csv",
     national_vote_path=ROOT / "netherlands/tweede-kamer/tweede_kamer_national_vote_share.csv",
     factor_dir=ROOT / "netherlands/factors",
     party_metadata=PARTY_METADATA,
     source_note='Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators',
-    secondary_source_note='Internal candidate only; no public mirror or cross-country claim',
+    secondary_source_note='Public preview only; no TID door or cross-country claim',
 )
 
 

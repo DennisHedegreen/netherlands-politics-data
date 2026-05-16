@@ -968,7 +968,7 @@ def render(country_config, selected_country_label, runtime_context):
         st.title("About & sources")
         st.markdown(
             f"""
-This is the first internal Netherlands adapter inside `World-politics-data`.
+This is the Netherlands public-preview adapter extracted from `World-politics-data`.
 
 - Country: `{country_config.display_name}`
 - Election scope: `Tweede Kamer 2023` and `Tweede Kamer 2025`
@@ -976,7 +976,7 @@ This is the first internal Netherlands adapter inside `World-politics-data`.
 - Public geography: European Netherlands `{country_config.public_geography_label}`
 - Public geography count: `{country_config.public_geography_count}`
 - Statistics source: `{country_config.statistics_source_name}`
-- Runtime status: internal only
+- Runtime status: public preview; not TID-launched
 
 The adapter deliberately excludes `G9010 NBSB`, Bonaire, Sint Eustatius, Saba, and any abroad-style aggregate rows from the first municipality layer.
 """
@@ -985,9 +985,9 @@ The adapter deliberately excludes `G9010 NBSB`, Bonaire, Sint Eustatius, Saba, a
             """
 **Publication boundary**
 
-- Internal testing surface only.
-- No public mirror, no TID door, and no public country claim.
-- Public-readiness still needs source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
+- Public-preview surface only.
+- Public GitHub mirror is allowed; no TID door, public homepage link, or cross-country claim yet.
+- Full public-launch readiness still needs live Streamlit readback, source wording review, national-vs-municipality scope wording review, and turnout-denominator resolution.
 """
         )
         st.markdown(

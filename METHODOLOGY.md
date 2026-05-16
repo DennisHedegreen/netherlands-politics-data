@@ -2,7 +2,7 @@
 
 ## What this tool is
 
-A private Netherlands-only deploy mirror for internal reading and staging. It pairs the current Tweede Kamer election municipality layer with the narrow factor set that is honest enough to render now, without pretending the Netherlands surface is public-ready.
+A public preview reading surface for Dutch politics data. It pairs Tweede Kamer election results with the current municipality-safe factor layer while keeping the TID/public-launch boundary explicit.
 
 ## What this tool is not
 
@@ -11,7 +11,7 @@ A private Netherlands-only deploy mirror for internal reading and staging. It pa
 - Correlation is not causation.
 - Municipal-level patterns do not describe individual voters.
 
-## Mirror scope
+## Preview scope
 
 - Country: `Netherlands`
 - Election type: `Tweede Kamer`
@@ -29,7 +29,7 @@ A private Netherlands-only deploy mirror for internal reading and staging. It pa
 ## Sources
 
 - Election source: `Kiesraad/data.overheid.nl Tweede Kamer municipality results + CBS StatLine municipal indicators`
-- Secondary source: `Internal candidate only; no public mirror or cross-country claim`
+- Boundary note: `Public preview only; no TID door or cross-country claim`
 - Statistics source: `CBS StatLine`
 
 ## Known limitations

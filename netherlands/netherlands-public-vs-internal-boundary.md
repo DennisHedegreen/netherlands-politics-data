@@ -2,7 +2,16 @@
 
 Public now:
 
-- nothing
+- public GitHub preview mirror: `netherlands-politics-data`
+- public-preview app shell, once Streamlit is deployed from the mirror
+- preview-level README, methodology, provenance, and normalized output files
+
+Still not public-launched:
+
+- no TID room
+- no public homepage link
+- no cross-country claim
+- no public live-country switch exposure from `World-politics-data`
 
 Internal now:
 
@@ -16,16 +25,13 @@ Internal now:
 - internal normalized `population_density` factor output
 - internal adapter draft
 - internal registry/profile exposure
-- no public mirror
 
 Not ready for public:
 
-- any public `Dutch Politics Data` app shell
 - any TID room
-- any public GitHub mirror
 - any claim that Netherlands belongs in the public live country switch
 - any cross-country comparison involving the Netherlands
-- any public municipality-level reading before a factor path and method wording are tested
+- any final public-launch wording before the preview has passed live readback
 
 First internal boundary:
 
@@ -38,4 +44,4 @@ First internal boundary:
 
 Rule:
 
-The Netherlands remains an internal candidate after the first adapter draft. Do not expose the country from public profiles until UI smoke, method wording, source rebuild scripting, and a separate public-readiness decision are complete.
+The Netherlands is now allowed to exist as a public preview mirror. Do not expose the country from the shared public profile, add a TID door, or make cross-country claims until live preview readback, method wording, source rebuild scripting, and a separate TID-readiness decision are complete.

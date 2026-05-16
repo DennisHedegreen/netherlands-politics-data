@@ -1,13 +1,13 @@
 # Netherlands Factors
 
-Internal candidate factor layer for Netherlands.
+Public-preview factor layer for Netherlands.
 
 Status:
 
-- internal only
-- not public-ready
-- internal runtime adapter draft exists
-- internal registry/profile exposure exists
+- public preview only
+- not TID-launched
+- public-preview runtime adapter exists
+- public-preview mirror exposure exists
 
 Current factors:
 
@@ -234,4 +234,4 @@ Provenance:
 
 - `../../provenance/netherlands_cars_manifest.json`
 
-Do not expose Netherlands publicly from these files alone. They are internal factor candidates for adapter work, not a public-release signal.
+Do not promote Netherlands beyond the public-preview gate from these files alone. They are preview factor candidates for the current app surface, not a TID/public-homepage release signal.

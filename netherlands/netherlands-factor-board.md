@@ -1,8 +1,8 @@
 # Netherlands Factor Board
 
-Internal planning note for the first Netherlands factor passes.
+Public-preview planning note for the first Netherlands factor passes.
 
-This is not a public comparability claim. It is a working board for deciding what can enter a Netherlands internal candidate layer without lowering the honesty bar.
+This is not a cross-country comparability claim. It is a working board for deciding what can enter the Netherlands public-preview layer without lowering the honesty bar.
 
 ## First Candidate Batch
 
@@ -17,7 +17,7 @@ Why:
 Current disposition:
 
 - source path harvested
-- normalized internal candidate exists at `factors/population.csv`
+- normalized preview candidate exists at `factors/population.csv`
 - source: CBS StatLine `03759NED`
 - field: `BevolkingOp1Januari_1`
 - first target years covered: `2023`, `2025`
@@ -34,7 +34,7 @@ Why:
 Current disposition:
 
 - source path harvested
-- normalized internal candidate exists at `factors/population_density.csv`
+- normalized preview candidate exists at `factors/population_density.csv`
 - source: CBS StatLine `70072NED`
 - field: `Bevolkingsdichtheid_57`
 - first target years covered: `2023`, `2025`
@@ -51,7 +51,7 @@ Why:
 Current disposition:
 
 - source path harvested
-- normalized internal candidate exists at `factors/age65_pct.csv`
+- normalized preview candidate exists at `factors/age65_pct.csv`
 - source: CBS StatLine `03759NED`
 - field: `BevolkingOp1Januari_1`
 - rule: sum ages 65-94 plus CBS `95 jaar of ouder`, divide by total population on January 1
@@ -68,7 +68,7 @@ Why:
 Current disposition:
 
 - source path harvested
-- normalized internal candidate exists at `factors/education.csv`
+- normalized preview candidate exists at `factors/education.csv`
 - source: CBS StatLine `85525NED`
 - field: `k_3HboWo_4`
 - definition: `hbo/wo` highest completed education share for ages 15-75
@@ -76,7 +76,7 @@ Current disposition:
 - source periods: `2023JJ00` for 2023, `2024JJ00` as latest available lagged source for 2025
 - coverage: `341/342` municipalities in both app years
 - known gap: `GM0088` Schiermonnikoog is null in CBS, not backfilled
-- disposition: internal live candidate only; this is not a public-ready or full-coverage factor
+- disposition: preview live candidate only; this is not a full-coverage factor
 
 ### `income`
 
@@ -88,7 +88,7 @@ Why:
 Current disposition:
 
 - source path harvested
-- normalized internal candidate exists at `factors/income.csv`
+- normalized preview candidate exists at `factors/income.csv`
 - source: CBS StatLine `70072NED`
 - field: `ParticuliereHuishoudensExclStudenten_136`
 - definition: average standardized income for private households excluding student households
@@ -97,7 +97,7 @@ Current disposition:
 - source periods: `2023JJ00` for 2023, `2024JJ00` as latest available lagged source for 2025
 - coverage: `342/342` municipalities in 2023 and `336/342` municipalities in 2025 app view
 - known gap: CBS nulls for Ameland, Schiermonnikoog, Terschelling, Vlieland, Rozendaal, and Renswoude in the 2024 source period
-- disposition: internal live candidate only; this is not public-ready
+- disposition: preview live candidate only; this is not a TID-launch factor by itself
 
 ## Safe Second Batch
 
@@ -111,12 +111,12 @@ Why:
 
 Current disposition:
 
-- normalized internal candidate exists at `factors/one_person_household_share_pct.csv`
+- normalized preview candidate exists at `factors/one_person_household_share_pct.csv`
 - source: CBS StatLine `70072NED`
 - field: `Eenpersoonshuishoudens_86`
 - definition: one-person private households as a share of all private households
 - coverage: `342/342` municipalities in both `2023` and `2025`
-- disposition: internal live candidate only
+- disposition: preview live candidate only
 
 ### `owner_occupied`
 
@@ -128,13 +128,13 @@ Why:
 
 Current disposition:
 
-- normalized internal candidate exists at `factors/owner_occupied_dwelling_share_pct.csv`
+- normalized preview candidate exists at `factors/owner_occupied_dwelling_share_pct.csv`
 - source: CBS StatLine `70072NED`
 - field: `Koopwoningen_94`
 - definition: owner-occupied dwellings as a share of dwellings
 - coverage: `342/342` municipalities in both app years
 - source periods: `2023JJ00` for 2023, `2024JJ00` as latest usable source for 2025
-- disposition: internal live candidate only; lagged 2025 wording must remain visible
+- disposition: preview live candidate only; lagged 2025 wording must remain visible
 
 ### `cars`
 
@@ -146,12 +146,12 @@ Why:
 
 Current disposition:
 
-- normalized internal candidate exists at `factors/cars_per_1000.csv`
+- normalized preview candidate exists at `factors/cars_per_1000.csv`
 - source: CBS StatLine `70072NED`
 - field: `PersonenautoSParticulierenRelatief_204`
 - definition: private passenger cars per 1,000 residents, excluding company-registered cars
 - coverage: `342/342` municipalities in both `2023` and `2025`
-- disposition: internal live candidate only
+- disposition: preview live candidate only
 
 ## Investigate After First Batch
 
@@ -208,7 +208,7 @@ Why:
 Why:
 
 - public wording and source comparability are not locked
-- not needed for a first internal country proof
+- not needed for the first public-preview country proof
 
 ## Working Order
 
@@ -222,6 +222,6 @@ Current working-order status:
 
 - steps 1-4 are complete for `population` and `population_density`
 - steps 1-4 are complete with caveats for `education`
-- step 5 now has a first internal adapter draft with `population`, `population_density`, `age65`, lagged `education`, and lagged `income`
-- safe second batch now adds `one_person_households`, lagged `owner_occupied`, and private `cars`
+- step 5 now has a public-preview adapter with `population`, `population_density`, `age65`, lagged `education`, and lagged `income`
+- safe second batch now adds `one_person_households`, lagged `owner_occupied`, and private-car `cars`
 - next useful pass is local UI/browser interaction and method wording, not broad factor harvesting
